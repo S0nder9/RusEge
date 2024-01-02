@@ -1,0 +1,85 @@
+
+
+.for-button .button-prime {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+
+.for-button .button-prime .button-prime-p {
+    --c:#0a3a52;
+    color: var(--c);
+    font-size: 16px;
+    border: 0.3em solid var(--c);
+    border-radius: 0.5em;
+    width: 12em;
+    height: 3em;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: sans-serif;
+    letter-spacing: 0.1em;
+    text-align: center;
+    line-height: 3em;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    transition: 0.5s;
+    
+    
+    width:100px; height:80px;
+    
+}
+
+.for-button .button-prime .button-prime-p span {
+    position: absolute;
+    width: 25%;
+    height: 100%;
+    background-color: var(--c);
+    transform: translateY(150%);
+    border-radius: 50%;
+    left: calc((var(--n) - 1) * 25%);
+    transition: 0.5s;
+    transition-delay: calc((var(--n) - 1) * 0.1s);
+    z-index: -1;
+    
+}
+
+.for-button .button-prime .button-prime-p:hover {
+    color: black;
+    
+    
+}
+
+.for-button .button-prime .button-prime-p:hover span {
+    transform: translateY(0) scale(2);
+}
+
+.for-button .button-prime .button-prime-p span:nth-child(1) {
+    --n: 1;
+}
+
+.for-button .button-prime .button-prime-p span:nth-child(2) {
+    --n: 2;
+}
+
+.for-button .button-prime .button-prime-p span:nth-child(3) {
+    --n: 3;
+}
+
+.for-button .button-prime .button-prime-p span:nth-child(4) {
+    --n: 4;
+}
+a {
+  text-decoration: none;
+}
+
+
+
+ 
+  
+
+
+

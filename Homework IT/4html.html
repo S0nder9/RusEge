@@ -1,0 +1,2443 @@
+<!doctype html>
+<html lang="ru">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>РУСЕГЭ: тесты реальной сложности</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
+    <link href="https://getbootstrap.com/docs/5.2/assets/css/docs.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="macbook.css">
+    <script src="Java.js"></script>
+    <link rel="stylesheet" href="css.css">
+    </link>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="navbar.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css2?NotoSansKorean&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="questions4.css">
+</head>
+
+<body>
+    <div class="navbar-all" style="width: 100%;height: 100px;">
+        <nav class="navbar-nav-scroll">
+            <input id="nav-toggle" type="checkbox">
+            <a href="index.html" style="text-decoration: none;">
+
+                <img src="Лого.png" alt="РУСЕГЭ" style="width: 160px;height: 80px; position: static;">
+            </a>
+            <ul class="links">
+                <li><a href="check-list.html">Бесплатные материалы</a></li>
+                <li><a href="solve-the-probe.html">Решить пробник</a></li>
+                <li><a href="shop.html">Магазин</a></li>
+                <li><a href="news.html">Новое</a></li>
+                <li><a href="contact.html">Контакты</a></li>
+            </ul>
+            <label for="nav-toggle" class="icon-burger">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </label>
+        </nav>
+    </div>
+    <input type="checkbox" id="burger_checkbox" style="display: none;">
+    <label class="burger" for="burger_checkbox" style="z-index: 1001;">
+        <i class='bx bx-menu bx-md'></i>
+
+    </label>
+    <div class="sidebar">
+
+        <ul class="side-menu">
+
+            <div class="accordion accordion-flush" id="accordionFlushExample">
+
+
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne" style="width: calc(100% - 3px);
+        height: 100%;
+        
+        background: #7fd3e2;
+        display: flex;
+        align-items: center;
+        border-radius: 48px;
+        font-size: 16px;
+       
+        color: white;
+        white-space: nowrap;
+        
+        overflow-x: hidden;"> <i class='bx bxs-category'
+                        style="font-size: 1.6rem;min-width: calc(60px - ((4px + 6px) * 2));margin-left: -7px;"></i>ЕГЭ
+                </button>
+
+                <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
+                    data-bs-parent="#accordionFlushExample1">
+                    <li><a href="1html.html"><i class='bx bx-chevrons-right'></i>1 задание</a></li>
+                    <li><a href="2html.html"><i class='bx bx-chevrons-right'></i>2 задание</a></li>
+                    <li><a href="3html.html"><i class='bx bx-chevrons-right'></i>3 задание</a></li>
+                    <li class="active"><a href="4html.html"><i class='bx bx-chevrons-right'></i>4 задание</a></li>
+                    <li><a href="5html.html"><i class='bx bx-chevrons-right'></i>5 задание</a></li>
+                    <li><a href="6html.html"><i class='bx bx-chevrons-right'></i>6 задание</a></li>
+                    <li><a href="7html.html"><i class='bx bx-chevrons-right'></i>7 задание</a></li>
+                    <li><a href="8html.html"><i class='bx bx-chevrons-right'></i>8 задание</a></li>
+                    <li><a href="9html.html"><i class='bx bx-chevrons-right'></i>9 задание</a></li>
+                    <li><a href="10html.html"><i class='bx bx-chevrons-right'></i>10 задание</a></li>
+                    <li><a href="11html.html"><i class='bx bx-chevrons-right'></i>11 задание</a></li>
+                    <li><a href="12html.html"><i class='bx bx-chevrons-right'></i>12 задание</a></li>
+                    <li><a href="13html.html"><i class='bx bx-chevrons-right'></i>13 задание</a></li>
+                    <li><a href="14html.html"><i class='bx bx-chevrons-right'></i>14 задание</a></li>
+                    <li><a href="15html.html"><i class='bx bx-chevrons-right'></i>15 задание</a></li>
+                    <li><a href="16html.html"><i class='bx bx-chevrons-right'></i>16 задание</a></li>
+                    <li><a href="17html.html"><i class='bx bx-chevrons-right'></i>17 задание</a></li>
+                    <li><a href="18html.html"><i class='bx bx-chevrons-right'></i>18 задание</a></li>
+                    <li><a href="19html.html"><i class='bx bx-chevrons-right'></i>19 задание</a></li>
+                    <li><a href="20html.html"><i class='bx bx-chevrons-right'></i>20 задание</a></li>
+                    <li><a href="21html.html"><i class='bx bx-chevrons-right'></i>21 задание</a></li>
+                    <li><a href="22html.html"><i class='bx bx-chevrons-right'></i>22 задание</a></li>
+                    <li><a href="23html.html"><i class='bx bx-chevrons-right'></i>23 задание</a></li>
+                    <li><a href="24html.html"><i class='bx bx-chevrons-right'></i>24 задание</a></li>
+                    <li><a href="25html.html"><i class='bx bx-chevrons-right'></i>25 задание</a></li>
+                    <li><a href="26html.html"><i class='bx bx-chevrons-right'></i>26 задание</a></li>
+                    <li><a href="27html.html"><i class='bx bx-chevrons-right'></i>27 задание</a></li>
+                </div>
+            </div>
+
+
+
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#flush-collapseOne2" aria-expanded="false" aria-controls="flush-collapseOne" style="width: calc(100% - 3px);
+        height: 100%;
+        
+        background: #7fd3e2;
+        display: flex;
+        align-items: center;
+        border-radius: 48px;
+        font-size: 16px;
+       
+        color: white;
+        white-space: nowrap;
+        margin-top: 10px;
+        overflow-x: hidden;"> <i class='bx bxs-category'
+                    style="font-size: 1.6rem;min-width: calc(60px - ((4px + 6px) * 2));margin-left: -7px;"></i>ОГЭ
+            </button>
+
+            <div id="flush-collapseOne2" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
+                data-bs-parent="#accordionFlushExample2">
+
+
+                <li><a href="1OGE.html"><i class='bx bx-chevrons-right'></i>1 задание</a></li>
+                <li><a href="2OGE.html"><i class='bx bx-chevrons-right'></i>2 задание</a></li>
+                <li><a href="3OGE.html"><i class='bx bx-chevrons-right'></i>3 задание</a></li>
+                <li><a href="4OGE.html"><i class='bx bx-chevrons-right'></i>4 задание</a></li>
+                <li><a href="5OGE.html"><i class='bx bx-chevrons-right'></i>5 задание</a></li>
+                <li><a href="6OGE.html"><i class='bx bx-chevrons-right'></i>6 задание</a></li>
+                <li><a href="7OGE.html"><i class='bx bx-chevrons-right'></i>7 задание</a></li>
+                <li><a href="8OGE.html"><i class='bx bx-chevrons-right'></i>8 задание</a></li>
+                <li><a href="9OGE.html"><i class='bx bx-chevrons-right'></i>9 задание</a></li>
+                <li><a href="10OGE.html"><i class='bx bx-chevrons-right'></i>10 задание</a></li>
+                <li><a href="11OGE.html"><i class='bx bx-chevrons-right'></i>11 задание</a></li>
+                <li><a href="12OGE.html"><i class='bx bx-chevrons-right'></i>12 задание</a></li>
+                <li><a href="13OGE.html"><i class='bx bx-chevrons-right'></i>13 задание</a></li>
+            </div>
+        </ul>
+
+    </div>
+
+    <div class="div__grid">
+        <div class="theoty__main">
+            <p style="color:#C3113D;font-size:24px; text-align: center;"><b>ЕГЭ. ЗАДАНИЕ 4</b></p>
+            <div class="button-theory">
+                <a href="theory.html">
+                    <p style="color:#C3113D;font-size:16px; text-align: center;opacity: .8;transform: translate(0);transition: all 0.3s;"
+                        class="theory-p"><b>Изучить теорию</b></p>
+                </a>
+
+            </div>
+        </div>
+        <div class="responsive__div">
+
+            <div class="header__responsive">
+                <div class="active__class" id="active__class">Словник 2024</div>
+                <div class="unactive__class-1" id="unactive__class">Существительные (тест)</div>
+                <div class="unactive__class-2" id="unactive__class">Существительные и прилагательные (тест)</div>
+                <div class="unactive__class-3" id="unactive__class">Глаголы (тест)</div>
+                <div class="unactive__class-4" id="unactive__class">Существительные и глаголы (тест)</div>
+                <div class="unactive__class-5" id="unactive__class">Отглагольные части речи (тест)</div>
+                <div class="unactive__class-6" id="unactive__class">Общий тест</div>
+            </div>
+
+            <div class="main__responsive-1" id="main__responsive">
+                <div class="dictionary-main">
+                    <div class="dictionary">
+                        <div class="heading">
+                            <p>Имена существительные</p>
+                        </div>
+
+                        <div class="dictionary__words">
+                            <i class='bx bx-minus bx-rotate-90 bx-sm'></i>
+                            <p class="dictionary__words-p">аэропОрты, им. п. мн. ч. сущ. аэропОрт</p>
+
+                            <i class='bx bx-minus bx-rotate-90 bx-sm'></i>
+                            <p class="dictionary__words-p">бАнты, им. п. мн. ч. сущ. бант</p>
+
+                            <i class='bx bx-minus bx-rotate-90 bx-sm'></i>
+                            <p class="dictionary__words-p">бОроду, вин. п. ед. ч. сущ. бородА</p>
+
+                            <i class='bx bx-minus bx-rotate-90 bx-sm'></i>
+                            <p class="dictionary__words-p">вероисповЕдани</p>
+
+                            <i class='bx bx-minus bx-rotate-90 bx-sm'></i>
+                            <p class="dictionary__words-p">водопровОд</p>
+
+                            <i class='bx bx-minus bx-rotate-90 bx-sm'></i>
+                            <p class="dictionary__words-p">газопровОд</p>
+
+                            <i class='bx bx-minus bx-rotate-90 bx-sm'></i>
+                            <p class="dictionary__words-p">граждАнство</p>
+
+                            <i class='bx bx-minus bx-rotate-90 bx-sm'></i>
+                            <p class="dictionary__words-p">дефИс</p>
+
+                            <i class='bx bx-minus bx-rotate-90 bx-sm'></i>
+                            <p class="dictionary__words-p">дешевИзна</p>
+
+                            <i class='bx bx-minus bx-rotate-90 bx-sm'></i>
+                            <p class="dictionary__words-p">диспансЕр</p>
+
+                            <i class='bx bx-minus bx-rotate-90 bx-sm'></i>
+                            <p class="dictionary__words-p">договорЁнность</p>
+
+                            <i class='bx bx-minus bx-rotate-90 bx-sm'></i>
+                            <p class="dictionary__words-p">докумЕнт</p>
+
+                            <i class='bx bx-minus bx-rotate-90 bx-sm'></i>
+                            <p class="dictionary__words-p">досУг</p>
+
+                            <i class='bx bx-minus bx-rotate-90 bx-sm'></i>
+                            <p class="dictionary__words-p">еретИк</p>
+
+                            <i class='bx bx-minus bx-rotate-90 bx-sm'></i>
+                            <p class="dictionary__words-p">жалюзИ</p>
+
+                            <i class='bx bx-minus bx-rotate-90 bx-sm'></i>
+                            <p class="dictionary__words-p">знАчимость</p>
+
+                            <i class='bx bx-minus bx-rotate-90 bx-sm'></i>
+                            <p class="dictionary__words-p">Иксы, им. п. мн. ч. сущ. икс</p>
+
+                            <i class='bx bx-minus bx-rotate-90 bx-sm'></i>
+                            <p class="dictionary__words-p">каталОг</p>
+
+                            <i class='bx bx-minus bx-rotate-90 bx-sm'></i>
+                            <p class="dictionary__words-p">квартАл (во всех значениях)</p>
+
+                            <i class='bx bx-minus bx-rotate-90 bx-sm'></i>
+                            <p class="dictionary__words-p">киломЕтр</p>
+
+                            <i class='bx bx-minus bx-rotate-90 bx-sm'></i>
+                            <p class="dictionary__words-p">кОнусов, род. п. мн. ч. сущ. кОнус</p>
+
+                            <i class='bx bx-minus bx-rotate-90 bx-sm'></i>
+                            <p class="dictionary__words-p">корЫсть</p>
+
+                            <i class='bx bx-minus bx-rotate-90 bx-sm'></i>
+                            <p class="dictionary__words-p">крАны, им. п. мн. ч. сущ. кран</p>
+
+                            <i class='bx bx-minus bx-rotate-90 bx-sm'></i>
+                            <p class="dictionary__words-p">кремЕнь; кремнЯ, род. п. ед. ч.</p>
+
+                            <i class='bx bx-minus bx-rotate-90 bx-sm'></i>
+                            <p class="dictionary__words-p">лЕкторов, род. п. мн. ч. сущ. лЕктор</p>
+
+                            <i class='bx bx-minus bx-rotate-90 bx-sm'></i>
+                            <p class="dictionary__words-p">лОктя, род. п. ед. ч. сущ. лОкоть; локтЕй, род. п. мн. ч.</p>
+
+                            <i class='bx bx-minus bx-rotate-90 bx-sm'></i>
+                            <p class="dictionary__words-p">лыжнЯ</p>
+
+                            <i class='bx bx-minus bx-rotate-90 bx-sm'></i>
+                            <p class="dictionary__words-p">мЕстностей, род. п. мн. ч. сущ. мЕстность</p>
+
+                            <i class='bx bx-minus bx-rotate-90 bx-sm'></i>
+                            <p class="dictionary__words-p">намЕрение</p>
+
+                            <i class='bx bx-minus bx-rotate-90 bx-sm'></i>
+                            <p class="dictionary__words-p">нарОст</p>
+
+                            <i class='bx bx-minus bx-rotate-90 bx-sm'></i>
+                            <p class="dictionary__words-p">нЕдруг</p>
+
+                            <i class='bx bx-minus bx-rotate-90 bx-sm'></i>
+                            <p class="dictionary__words-p">недУг</p>
+
+                            <i class='bx bx-minus bx-rotate-90 bx-sm'></i>
+                            <p class="dictionary__words-p">некролОг</p>
+
+                            <i class='bx bx-minus bx-rotate-90 bx-sm'></i>
+                            <p class="dictionary__words-p">нЕнависть</p>
+
+                            <i class='bx bx-minus bx-rotate-90 bx-sm'></i>
+                            <p class="dictionary__words-p">нефтепровОд</p>
+
+                            <i class='bx bx-minus bx-rotate-90 bx-sm'></i>
+                            <p class="dictionary__words-p">новостЕй, род. п. мн. ч. сущ. нОвость</p>
+
+                            <i class='bx bx-minus bx-rotate-90 bx-sm'></i>
+                            <p class="dictionary__words-p">нОгтя, род. п. ед. ч. сущ. нОготь; ногтЕй, род. п. мн. ч.</p>
+
+                            <i class='bx bx-minus bx-rotate-90 bx-sm'></i>
+                            <p class="dictionary__words-p">Отзыв (о книге), «отклик, мнение, рецензия»</p>
+
+                            <i class='bx bx-minus bx-rotate-90 bx-sm'></i>
+                            <p class="dictionary__words-p">отзЫв (посла из страны), действие по глаг. отозвАть –
+                                «потребовать возвращения назад»</p>
+
+                            <i class='bx bx-minus bx-rotate-90 bx-sm'></i>
+                            <p class="dictionary__words-p">Отрочество</p>
+
+                            <i class='bx bx-minus bx-rotate-90 bx-sm'></i>
+                            <p class="dictionary__words-p">партЕр</p>
+
+                            <i class='bx bx-minus bx-rotate-90 bx-sm'></i>
+                            <p class="dictionary__words-p">портфЕль</p>
+
+                            <i class='bx bx-minus bx-rotate-90 bx-sm'></i>
+                            <p class="dictionary__words-p">пОручни</p>
+
+                            <i class='bx bx-minus bx-rotate-90 bx-sm'></i>
+                            <p class="dictionary__words-p">придАное</p>
+
+                            <i class='bx bx-minus bx-rotate-90 bx-sm'></i>
+                            <p class="dictionary__words-p">призЫв</p>
+
+                            <i class='bx bx-minus bx-rotate-90 bx-sm'></i>
+                            <p class="dictionary__words-p">свЁкла</p>
+
+                            <i class='bx bx-minus bx-rotate-90 bx-sm'></i>
+                            <p class="dictionary__words-p">сирОты, им. п. мн. ч. сущ. сиротА</p>
+
+                            <i class='bx bx-minus bx-rotate-90 bx-sm'></i>
+                            <p class="dictionary__words-p">созЫв</p>
+
+                            <i class='bx bx-minus bx-rotate-90 bx-sm'></i>
+                            <p class="dictionary__words-p">сосредотОчение</p>
+
+                            <i class='bx bx-minus bx-rotate-90 bx-sm'></i>
+                            <p class="dictionary__words-p">срЕдства, им. п. мн. ч. сущ. срЕдство</p>
+
+                            <i class='bx bx-minus bx-rotate-90 bx-sm'></i>
+                            <p class="dictionary__words-p">стАтуя</p>
+
+                            <i class='bx bx-minus bx-rotate-90 bx-sm'></i>
+                            <p class="dictionary__words-p">столЯр</p>
+
+                            <i class='bx bx-minus bx-rotate-90 bx-sm'></i>
+                            <p class="dictionary__words-p">тамОжня</p>
+
+                            <i class='bx bx-minus bx-rotate-90 bx-sm'></i>
+                            <p class="dictionary__words-p">тОрты, им. п. мн. ч. сущ. торт</p>
+
+                            <i class='bx bx-minus bx-rotate-90 bx-sm'></i>
+                            <p class="dictionary__words-p">тУфля</p>
+
+                            <i class='bx bx-minus bx-rotate-90 bx-sm'></i>
+                            <p class="dictionary__words-p">цемЕнт</p>
+
+                            <i class='bx bx-minus bx-rotate-90 bx-sm'></i>
+                            <p class="dictionary__words-p">цЕнтнер</p>
+
+                            <i class='bx bx-minus bx-rotate-90 bx-sm'></i>
+                            <p class="dictionary__words-p">цепОчка</p>
+
+                            <i class='bx bx-minus bx-rotate-90 bx-sm'></i>
+                            <p class="dictionary__words-p">шАрфы, им. п. мн. ч. сущ. шарф</p>
+
+                            <i class='bx bx-minus bx-rotate-90 bx-sm'></i>
+                            <p class="dictionary__words-p">шофЁр</p>
+
+                            <i class='bx bx-minus bx-rotate-90 bx-sm'></i>
+                            <p class="dictionary__words-p">экспЕрт</p>
+                        </div>
+                    </div>
+
+                    <div class="dictionary">
+                        <div class="heading">
+                            <p>Имена прилагательные</p>
+                        </div>
+
+                        <div class="dictionary__words">
+                            <i class='bx bx-minus bx-rotate-90 bx-sm'></i>
+                            <p class="dictionary__words-p">вернА, кр. ф. ж. р. прил. вЕрный</p>
+
+                            <i class='bx bx-minus bx-rotate-90 bx-sm'></i>
+                            <p class="dictionary__words-p">знАчимый</p>
+
+                            <i class='bx bx-minus bx-rotate-90 bx-sm'></i>
+                            <p class="dictionary__words-p">красИвее, сравн. ст. прил. красИвый; красИвейший, превосх.
+                                ст.</p>
+
+                            <i class='bx bx-minus bx-rotate-90 bx-sm'></i>
+                            <p class="dictionary__words-p">кУхонный</p>
+
+                            <i class='bx bx-minus bx-rotate-90 bx-sm'></i>
+                            <p class="dictionary__words-p">ловкА, кр. ф. ж. р. прил. лОвкий</p>
+
+                            <i class='bx bx-minus bx-rotate-90 bx-sm'></i>
+                            <p class="dictionary__words-p">мозаИчный</p>
+
+                            <i class='bx bx-minus bx-rotate-90 bx-sm'></i>
+                            <p class="dictionary__words-p">оптОвый</p>
+
+                            <i class='bx bx-minus bx-rotate-90 bx-sm'></i>
+                            <p class="dictionary__words-p">прозорлИвый; прозорлИва, кр. ф. ж. р.</p>
+
+                            <i class='bx bx-minus bx-rotate-90 bx-sm'></i>
+                            <p class="dictionary__words-p">слИвовый</p>
+                        </div>
+                    </div>
+
+                    <div class="dictionary">
+                        <div class="heading">
+                            <p>Глаголы</p>
+                        </div>
+
+                        <div class="dictionary__words">
+                            <i class='bx bx-minus bx-rotate-90 bx-sm'></i>
+                            <p class="dictionary__words-p">бралА, прош. вр. ж. р. глаг. брАть</p>
+
+                            <i class='bx bx-minus bx-rotate-90 bx-sm'></i>
+                            <p class="dictionary__words-p">бралАсь, прош. вр. ж. р. глаг. брАться</p>
+
+                            <i class='bx bx-minus bx-rotate-90 bx-sm'></i>
+                            <p class="dictionary__words-p">взялА, прош. вр. ж. р. глаг. взЯть</p>
+
+                            <i class='bx bx-minus bx-rotate-90 bx-sm'></i>
+                            <p class="dictionary__words-p">взялАсь, прош. вр. ж. р. глаг. взЯться</p>
+
+                            <i class='bx bx-minus bx-rotate-90 bx-sm'></i>
+                            <p class="dictionary__words-p">влилАсь, прош. вр. ж. р. глаг. влИться</p>
+
+                            <i class='bx bx-minus bx-rotate-90 bx-sm'></i>
+                            <p class="dictionary__words-p">ворвалАсь, прош. вр. ж. р. глаг. ворвАться</p>
+
+                            <i class='bx bx-minus bx-rotate-90 bx-sm'></i>
+                            <p class="dictionary__words-p">воспринЯть; воспринялА, прош. вр. ж. р.</p>
+
+                            <i class='bx bx-minus bx-rotate-90 bx-sm'></i>
+                            <p class="dictionary__words-p">воссоздалА, прош. вр. ж. р. глаг. воссоздАть
+                            <p>
+
+                                <i class='bx bx-minus bx-rotate-90 bx-sm'></i>
+                            <p class="dictionary__words-p">вручИт, 3-е л. ед. ч. глаг. вручИть</p>
+
+                            <i class='bx bx-minus bx-rotate-90 bx-sm'></i>
+                            <p class="dictionary__words-p">гналА, прош. вр. ж. р. глаг. гнАть</p>
+
+                            <i class='bx bx-minus bx-rotate-90 bx-sm'></i>
+                            <p class="dictionary__words-p">гналАсь, прош. вр. ж. р. глаг. гнАться</p>
+
+                            <i class='bx bx-minus bx-rotate-90 bx-sm'></i>
+                            <p class="dictionary__words-p">добралА, прош. вр. ж. р. глаг. добрАть</p>
+
+                            <i class='bx bx-minus bx-rotate-90 bx-sm'></i>
+                            <p class="dictionary__words-p">добралАсь, прош. вр. ж. р. глаг. добрАться</p>
+
+                            <i class='bx bx-minus bx-rotate-90 bx-sm'></i>
+                            <p class="dictionary__words-p">дождалАсь, прош. вр. ж. р. глаг. дождАться</p>
+
+                            <i class='bx bx-minus bx-rotate-90 bx-sm'></i>
+                            <p class="dictionary__words-p">дозвонИтся, 3-е л. ед. ч. глаг. дозвонИться</p>
+
+                            <i class='bx bx-minus bx-rotate-90 bx-sm'></i>
+                            <p class="dictionary__words-p">дозИровать</p>
+
+                            <i class='bx bx-minus bx-rotate-90 bx-sm'></i>
+                            <p class="dictionary__words-p">ждалА, прош. вр. ж. р. глаг. ждАтьс</p>
+
+                            <i class='bx bx-minus bx-rotate-90 bx-sm'></i>
+                            <p class="dictionary__words-p">жилОсь, прош. вр. ср. р. глаг. жИться</p>
+
+                            <i class='bx bx-minus bx-rotate-90 bx-sm'></i>
+                            <p class="dictionary__words-p">закУпорить</p>
+
+                            <i class='bx bx-minus bx-rotate-90 bx-sm'></i>
+                            <p class="dictionary__words-p">занЯть; зАнял, занялА, зАняли, прош. вр.</p>
+
+                            <i class='bx bx-minus bx-rotate-90 bx-sm'></i>
+                            <p class="dictionary__words-p">заперлА, прош. вр. ж. р. глаг. заперЕть</p>
+
+                            <i class='bx bx-minus bx-rotate-90 bx-sm'></i>
+                            <p class="dictionary__words-p">запломбировАть</p>
+
+                            <i class='bx bx-minus bx-rotate-90 bx-sm'></i>
+                            <p class="dictionary__words-p">защемИт, 3-е л. ед. ч. глаг. защемИть</p>
+
+                            <i class='bx bx-minus bx-rotate-90 bx-sm'></i>
+                            <p class="dictionary__words-p">звалА, прош. вр. ж. р. глаг. звАть</p>
+
+                            <i class='bx bx-minus bx-rotate-90 bx-sm'></i>
+                            <p class="dictionary__words-p">звонИт, 3-е л. ед. ч. глаг. звонИть</p>
+
+                            <i class='bx bx-minus bx-rotate-90 bx-sm'></i>
+                            <p class="dictionary__words-p">кАшлянуть</p>
+
+                            <i class='bx bx-minus bx-rotate-90 bx-sm'></i>
+                            <p class="dictionary__words-p">клАла, прош. вр. ж. р. глаг. клАсть</p>
+
+                            <i class='bx bx-minus bx-rotate-90 bx-sm'></i>
+                            <p class="dictionary__words-p">клЕить</p>
+
+                            <i class='bx bx-minus bx-rotate-90 bx-sm'></i>
+                            <p class="dictionary__words-p">крАлась, прош. вр. ж. р. глаг. крАсться</p>
+
+                            <i class='bx bx-minus bx-rotate-90 bx-sm'></i>
+                            <p class="dictionary__words-p">кровоточИть</p>
+
+                            <i class='bx bx-minus bx-rotate-90 bx-sm'></i>
+                            <p class="dictionary__words-p">лгалА, прош. вр. ж. р. глаг. лгАть</p>
+
+                            <i class='bx bx-minus bx-rotate-90 bx-sm'></i>
+                            <p class="dictionary__words-p">лилА, прош. вр. ж. р. глаг. лИть</p>
+
+                            <i class='bx bx-minus bx-rotate-90 bx-sm'></i>
+                            <p class="dictionary__words-p">лилАсь, прош. вр. ж. р. глаг. лИться</p>
+
+                            <i class='bx bx-minus bx-rotate-90 bx-sm'></i>
+                            <p class="dictionary__words-p">навралА, прош. вр. ж. р. глаг. наврАть</p>
+
+                            <i class='bx bx-minus bx-rotate-90 bx-sm'></i>
+                            <p class="dictionary__words-p">наделИт, 3-е л. ед. ч. глаг. наделИть</p>
+
+                            <i class='bx bx-minus bx-rotate-90 bx-sm'></i>
+                            <p class="dictionary__words-p">надорвалАсь, прош. вр. ж. р. глаг. надорвАться</p>
+
+                            <i class='bx bx-minus bx-rotate-90 bx-sm'></i>
+                            <p class="dictionary__words-p">накренИтся, 3-е л. ед. ч. глаг. накренИться</p>
+
+                            <i class='bx bx-minus bx-rotate-90 bx-sm'></i>
+                            <p class="dictionary__words-p">налилА, прош. вр. ж. р. глаг. налИть</p>
+
+                            <i class='bx bx-minus bx-rotate-90 bx-sm'></i>
+                            <p class="dictionary__words-p">нарвалА, прош. вр. ж. р. глаг. нарвАть</p>
+
+                            <i class='bx bx-minus bx-rotate-90 bx-sm'></i>
+                            <p class="dictionary__words-p">начАть; нАчал, началА, нАчали, прош. вр.</p>
+
+                            <i class='bx bx-minus bx-rotate-90 bx-sm'></i>
+                            <p class="dictionary__words-p">обзвонИт, 3-е л. ед. ч. глаг. обзвонИть</p>
+
+                            <i class='bx bx-minus bx-rotate-90 bx-sm'></i>
+                            <p class="dictionary__words-p">облегчИть; облегчИт, 3-е л. ед. ч.</p>
+
+                            <i class='bx bx-minus bx-rotate-90 bx-sm'></i>
+                            <p class="dictionary__words-p">облилАсь, прош. вр. ж. р. глаг. облИться</p>
+
+                            <i class='bx bx-minus bx-rotate-90 bx-sm'></i>
+                            <p class="dictionary__words-p">обнялАсь, прош. вр. ж. р. глаг. обнЯться</p>
+
+                            <i class='bx bx-minus bx-rotate-90 bx-sm'></i>
+                            <p class="dictionary__words-p">обогналА, прош. вр. ж. р. глаг. обогнАть</p>
+
+                            <i class='bx bx-minus bx-rotate-90 bx-sm'></i>
+                            <p class="dictionary__words-p">ободралА, прош. вр. ж. р. глаг. ободрАть</p>
+
+                            <i class='bx bx-minus bx-rotate-90 bx-sm'></i>
+                            <p class="dictionary__words-p">ободрИть; ободрИт, 3-е л. ед. ч.</p>
+
+                            <i class='bx bx-minus bx-rotate-90 bx-sm'></i>
+                            <p class="dictionary__words-p">ободрИться; ободрИтся, 3-е л. ед. ч.</p>
+
+                            <i class='bx bx-minus bx-rotate-90 bx-sm'></i>
+                            <p class="dictionary__words-p">обострИть</p>
+
+                            <i class='bx bx-minus bx-rotate-90 bx-sm'></i>
+                            <p class="dictionary__words-p">одолжИть; одолжИт, 3-е л. ед. ч.</p>
+
+                            <i class='bx bx-minus bx-rotate-90 bx-sm'></i>
+                            <p class="dictionary__words-p">озлОбить</p>
+
+                            <i class='bx bx-minus bx-rotate-90 bx-sm'></i>
+                            <p class="dictionary__words-p">оклЕить</p>
+
+                            <i class='bx bx-minus bx-rotate-90 bx-sm'></i>
+                            <p class="dictionary__words-p">окружИт, 3-е л. ед. ч. глаг. окружИть</p>
+
+                            <i class='bx bx-minus bx-rotate-90 bx-sm'></i>
+                            <p class="dictionary__words-p">опОшлить</p>
+
+                            <i class='bx bx-minus bx-rotate-90 bx-sm'></i>
+                            <p class="dictionary__words-p">освЕдомиться; освЕдомится, 3-е л. ед. ч.</p>
+
+                            <i class='bx bx-minus bx-rotate-90 bx-sm'></i>
+                            <p class="dictionary__words-p">отбылА, прош. вр. ж. р. глаг. отбЫть</p>
+
+                            <i class='bx bx-minus bx-rotate-90 bx-sm'></i>
+                            <p class="dictionary__words-p">отдалА, прош. вр. ж. р. глаг. отдАть</p>
+
+                            <i class='bx bx-minus bx-rotate-90 bx-sm'></i>
+                            <p class="dictionary__words-p">откУпорить</p>
+
+                            <i class='bx bx-minus bx-rotate-90 bx-sm'></i>
+                            <p class="dictionary__words-p">отозвалА, прош. вр. ж. р. глаг. отозвАть</p>
+
+                            <i class='bx bx-minus bx-rotate-90 bx-sm'></i>
+                            <p class="dictionary__words-p">отозвалАсь, прош. вр. ж. р. глаг. отозвАться
+                            <p>
+
+                                <i class='bx bx-minus bx-rotate-90 bx-sm'></i>
+                            <p class="dictionary__words-p">перезвонИт, 3-е л. ед. ч. глаг. перезвонИть</p>
+
+                            <i class='bx bx-minus bx-rotate-90 bx-sm'></i>
+                            <p class="dictionary__words-p">перелилА, прош. вр. ж. р. глаг. перелИть</p>
+
+                            <i class='bx bx-minus bx-rotate-90 bx-sm'></i>
+                            <p class="dictionary__words-p">плодоносИть</p>
+
+                            <i class='bx bx-minus bx-rotate-90 bx-sm'></i>
+                            <p class="dictionary__words-p">пломбировАть</p>
+
+                            <i class='bx bx-minus bx-rotate-90 bx-sm'></i>
+                            <p class="dictionary__words-p">повторИт, 3-е л. ед. ч. глаг. повторИть</p>
+
+                            <i class='bx bx-minus bx-rotate-90 bx-sm'></i>
+                            <p class="dictionary__words-p">позвалА, прош. вр. ж. р. глаг. позвАть</p>
+
+                            <i class='bx bx-minus bx-rotate-90 bx-sm'></i>
+                            <p class="dictionary__words-p">позвонИт, 3-е л. ед. ч. глаг. позвонИть</p>
+
+                            <i class='bx bx-minus bx-rotate-90 bx-sm'></i>
+                            <p class="dictionary__words-p">полилА, прош. вр. ж. р. глаг. полИть</p>
+
+                            <i class='bx bx-minus bx-rotate-90 bx-sm'></i>
+                            <p class="dictionary__words-p">положИть; положИл, прош. вр. м. р.</p>
+
+                            <i class='bx bx-minus bx-rotate-90 bx-sm'></i>
+                            <p class="dictionary__words-p">понЯть; понялА, прош. вр. ж. р.</p>
+
+                            <i class='bx bx-minus bx-rotate-90 bx-sm'></i>
+                            <p class="dictionary__words-p">послАла, прош. вр. ж. р. глаг. послАть</p>
+
+                            <i class='bx bx-minus bx-rotate-90 bx-sm'></i>
+                            <p class="dictionary__words-p">прибЫть; прИбыл, прибылА, прИбыли, прош. вр.
+                            <p>
+
+                                <i class='bx bx-minus bx-rotate-90 bx-sm'></i>
+                            <p class="dictionary__words-p">принЯть; прИнял, принялА, прИняли, прош. вр.</p>
+
+                            <i class='bx bx-minus bx-rotate-90 bx-sm'></i>
+                            <p class="dictionary__words-p">рвалА, прош. вр. ж. р. глаг. рвАть</p>
+
+                            <i class='bx bx-minus bx-rotate-90 bx-sm'></i>
+                            <p class="dictionary__words-p">сверлИт, 3-е л. ед. ч. глаг. сверлИть</p>
+
+                            <i class='bx bx-minus bx-rotate-90 bx-sm'></i>
+                            <p class="dictionary__words-p">снялА, прош. вр. ж. р. глаг. снЯть</p>
+
+                            <i class='bx bx-minus bx-rotate-90 bx-sm'></i>
+                            <p class="dictionary__words-p">совралА, прош. вр. ж. р. глаг. соврАть</p>
+
+                            <i class='bx bx-minus bx-rotate-90 bx-sm'></i>
+                            <p class="dictionary__words-p">создалА, прош. вр. ж. р. глаг. создАть</p>
+
+                            <i class='bx bx-minus bx-rotate-90 bx-sm'></i>
+                            <p class="dictionary__words-p">сорвалА, прош. вр. ж. р. глаг. сорвАть</p>
+
+                            <i class='bx bx-minus bx-rotate-90 bx-sm'></i>
+                            <p class="dictionary__words-p">сорИт, 3-е л. ед. ч. глаг. сорИть</p>
+
+                            <i class='bx bx-minus bx-rotate-90 bx-sm'></i>
+                            <p class="dictionary__words-p">убралА, прош. вр. ж. р. глаг. убрАть</p>
+
+                            <i class='bx bx-minus bx-rotate-90 bx-sm'></i>
+                            <p class="dictionary__words-p">углубИть</p>
+
+                            <i class='bx bx-minus bx-rotate-90 bx-sm'></i>
+                            <p class="dictionary__words-p">укрепИт, 3-е л. ед. ч. глаг. укрепИть</p>
+
+                            <i class='bx bx-minus bx-rotate-90 bx-sm'></i>
+                            <p class="dictionary__words-p">чЕрпать</p>
+
+                            <i class='bx bx-minus bx-rotate-90 bx-sm'></i>
+                            <p class="dictionary__words-p">щемИт, 3-е л. ед. ч. глаг. щемИть</p>
+
+                            <i class='bx bx-minus bx-rotate-90 bx-sm'></i>
+                            <p class="dictionary__words-p">щЁлкать</p>
+                        </div>
+                    </div>
+
+                    <div class="dictionary">
+                        <div class="heading">
+                            <p>Причастия и отглагольные прилагательные</p>
+                        </div>
+
+                        <div class="dictionary__words">
+                            <i class='bx bx-minus bx-rotate-90 bx-sm'></i>
+                            <p class="dictionary__words-p">довезЁнный</p>
+
+                            <i class='bx bx-minus bx-rotate-90 bx-sm'></i>
+                            <p class="dictionary__words-p">зАгнутый</p>
+
+                            <i class='bx bx-minus bx-rotate-90 bx-sm'></i>
+                            <p class="dictionary__words-p">зАнятый; занятА, кр. ф. ж. р.</p>
+
+                            <i class='bx bx-minus bx-rotate-90 bx-sm'></i>
+                            <p class="dictionary__words-p">зАпертый</p>
+
+                            <i class='bx bx-minus bx-rotate-90 bx-sm'></i>
+                            <p class="dictionary__words-p">заселЁнный; заселенА, кр. ф. ж. р.</p>
+
+                            <i class='bx bx-minus bx-rotate-90 bx-sm'></i>
+                            <p class="dictionary__words-p">кормЯщий</p>
+
+                            <i class='bx bx-minus bx-rotate-90 bx-sm'></i>
+                            <p class="dictionary__words-p">кровоточАщий</p>
+
+                            <i class='bx bx-minus bx-rotate-90 bx-sm'></i>
+                            <p class="dictionary__words-p">нажИвший</p>
+
+                            <i class='bx bx-minus bx-rotate-90 bx-sm'></i>
+                            <p class="dictionary__words-p">налИвший</p>
+
+                            <i class='bx bx-minus bx-rotate-90 bx-sm'></i>
+                            <p class="dictionary__words-p">нанЯвшийся</p>
+
+                            <i class='bx bx-minus bx-rotate-90 bx-sm'></i>
+                            <p class="dictionary__words-p">начАвший</p>
+
+                            <i class='bx bx-minus bx-rotate-90 bx-sm'></i>
+                            <p class="dictionary__words-p">нАчатый</p>
+
+                            <i class='bx bx-minus bx-rotate-90 bx-sm'></i>
+                            <p class="dictionary__words-p">низведЁнный</p>
+
+                            <i class='bx bx-minus bx-rotate-90 bx-sm'></i>
+                            <p class="dictionary__words-p">облегчЁнный</p>
+
+                            <i class='bx bx-minus bx-rotate-90 bx-sm'></i>
+                            <p class="dictionary__words-p">ободрЁнный</p>
+
+                            <i class='bx bx-minus bx-rotate-90 bx-sm'></i>
+                            <p class="dictionary__words-p">обострЁнный</p>
+
+                            <i class='bx bx-minus bx-rotate-90 bx-sm'></i>
+                            <p class="dictionary__words-p">повторЁнный</p>
+
+                            <i class='bx bx-minus bx-rotate-90 bx-sm'></i>
+                            <p class="dictionary__words-p">поделЁнный</p>
+
+                            <i class='bx bx-minus bx-rotate-90 bx-sm'></i>
+                            <p class="dictionary__words-p">понЯвший</p>
+
+                            <i class='bx bx-minus bx-rotate-90 bx-sm'></i>
+                            <p class="dictionary__words-p">прИнятый; принятА, кр. ф. ж. р.</p>
+
+                            <i class='bx bx-minus bx-rotate-90 bx-sm'></i>
+                            <p class="dictionary__words-p">приручЁнный</p>
+
+                            <i class='bx bx-minus bx-rotate-90 bx-sm'></i>
+                            <p class="dictionary__words-p">прожИвший</p>
+
+                            <i class='bx bx-minus bx-rotate-90 bx-sm'></i>
+                            <p class="dictionary__words-p">снятА, кр. ф. ж. р. прич. снЯтый</p>
+
+                            <i class='bx bx-minus bx-rotate-90 bx-sm'></i>
+                            <p class="dictionary__words-p">сОгнутый</p>
+
+                            <i class='bx bx-minus bx-rotate-90 bx-sm'></i>
+                            <p class="dictionary__words-p">углублЁнный</p>
+                        </div>
+                    </div>
+
+                    <div class="dictionary">
+                        <div class="heading">
+                            <p>Деепричастия</p>
+                        </div>
+
+                        <div class="dictionary__words">
+                            <i class='bx bx-minus bx-rotate-90 bx-sm'></i>
+                            <p class="dictionary__words-p">закУпорив</p>
+
+                            <i class='bx bx-minus bx-rotate-90 bx-sm'></i>
+                            <p class="dictionary__words-p">начАв</p>
+
+                            <i class='bx bx-minus bx-rotate-90 bx-sm'></i>
+                            <p class="dictionary__words-p">начАвшись</p>
+
+                            <i class='bx bx-minus bx-rotate-90 bx-sm'></i>
+                            <p class="dictionary__words-p">отдАв</p>
+
+                            <i class='bx bx-minus bx-rotate-90 bx-sm'></i>
+                            <p class="dictionary__words-p">поднЯв</p>
+
+                            <i class='bx bx-minus bx-rotate-90 bx-sm'></i>
+                            <p class="dictionary__words-p">понЯв</p>
+
+                            <i class='bx bx-minus bx-rotate-90 bx-sm'></i>
+                            <p class="dictionary__words-p">прибЫв</p>
+
+                            <i class='bx bx-minus bx-rotate-90 bx-sm'></i>
+                            <p class="dictionary__words-p">создАв</p>
+                        </div>
+                    </div>
+
+                    <div class="dictionary">
+                        <div class="heading">
+                            <p>Наречия</p>
+                        </div>
+
+                        <div class="dictionary__words">
+                            <i class='bx bx-minus bx-rotate-90 bx-sm'></i>
+                            <p class="dictionary__words-p">вОвремя</p>
+
+                            <i class='bx bx-minus bx-rotate-90 bx-sm'></i>
+                            <p class="dictionary__words-p">дОверху</p>
+
+                            <i class='bx bx-minus bx-rotate-90 bx-sm'></i>
+                            <p class="dictionary__words-p">донЕльзя</p>
+
+                            <i class='bx bx-minus bx-rotate-90 bx-sm'></i>
+                            <p class="dictionary__words-p">дОнизу</p>
+
+                            <i class='bx bx-minus bx-rotate-90 bx-sm'></i>
+                            <p class="dictionary__words-p">дОсуха</p>
+
+                            <i class='bx bx-minus bx-rotate-90 bx-sm'></i>
+                            <p class="dictionary__words-p">зАсветло</p>
+
+                            <i class='bx bx-minus bx-rotate-90 bx-sm'></i>
+                            <p class="dictionary__words-p">зАтемно</p>
+
+                            <i class='bx bx-minus bx-rotate-90 bx-sm'></i>
+                            <p class="dictionary__words-p">красИвее, сравн. ст. нар. красИво</p>
+
+                            <i class='bx bx-minus bx-rotate-90 bx-sm'></i>
+                            <p class="dictionary__words-p">надОлго</p>
+
+                            <i class='bx bx-minus bx-rotate-90 bx-sm'></i>
+                            <p class="dictionary__words-p">ненадОлго</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="main__responsive-2" id="main__responsive">
+                <div class="heading">
+                    <p>Существительные. Практика</p>
+                </div>
+                <div class="main__content-2">
+                    <div class="number__questions">
+                        <p>Задание 1</p>
+
+                    </div>
+                    <div class="description">
+                        <p>Укажите варианты ответов, в которых верно выделена буква, обозначающая ударный гласный звук.
+                            Запишите номера ответов.
+                        </p>
+                    </div>
+                    <div class="questions">
+                        <p>1. аэропОрты</p>
+
+                        <p>2. бухгалтерОв</p>
+
+                        <p>3. вероисповЕдание</p>
+
+                        <p>4. газопрОвод</p>
+
+                        <p>5. дешевИзна</p>
+                    </div>
+
+                    <div class="responses">
+                        <div class="open__responses">
+                            <p>Открыть ответы</p>
+                        </div>
+
+                        <div class="click__responses">
+                            <p>45</p>
+                        </div>
+
+                        <div class="lane"></div>
+                    </div>
+                </div>
+
+                <div class="main__content-2">
+                    <div class="number__questions">
+                        <p>Задание 2</p>
+
+                    </div>
+                    <div class="description">
+                        <p>Укажите варианты ответов, в которых верно выделена буква, обозначающая ударный гласный звук.
+                            Запишите номера ответов.
+                        </p>
+                    </div>
+                    <div class="questions">
+                        <p>1. диспансЕр</p>
+
+                        <p>2. еретИк</p>
+
+                        <p>3. жалюзИ</p>
+
+                        <p>4. иксы</p>
+
+                        <p>5. катАлог</p>
+                    </div>
+
+                    <div class="responses">
+                        <div class="open__responses">
+                            <p>Открыть ответы</p>
+                        </div>
+
+                        <div class="click__responses">
+                            <p>45</p>
+                        </div>
+
+                        <div class="lane"></div>
+                    </div>
+                </div>
+
+                <div class="main__content-2">
+                    <div class="number__questions">
+                        <p>Задание 3</p>
+
+                    </div>
+                    <div class="description">
+                        <p>Укажите варианты ответов, в которых верно выделена буква, обозначающая ударный гласный звук.
+                            Запишите номера ответов.
+                        </p>
+                    </div>
+                    <div class="questions">
+                        <p>1. квартАл</p>
+
+                        <p>2. кремЕнь</p>
+
+                        <p>3. локтЯ</p>
+
+                        <p>4. местностЕй</p>
+
+                        <p>5. нЕдуг</p>
+                    </div>
+
+                    <div class="responses">
+                        <div class="open__responses">
+                            <p>Открыть ответы</p>
+                        </div>
+
+                        <div class="click__responses">
+                            <p>45</p>
+                        </div>
+
+                        <div class="lane"></div>
+                    </div>
+                </div>
+
+                <div class="main__content-2">
+                    <div class="number__questions">
+                        <p>Задание 4</p>
+
+                    </div>
+                    <div class="description">
+                        <p>Укажите варианты ответов, в которых верно выделена буква, обозначающая ударный гласный звук.
+                            Запишите номера ответов.
+                        </p>
+                    </div>
+                    <div class="questions">
+                        <p>1. некрОлог</p>
+
+                        <p>2. нефтепрОвод</p>
+
+                        <p>3. нОгтя</p>
+
+                        <p>4. отрОчество</p>
+
+                        <p>5. партЕр</p>
+                    </div>
+
+                    <div class="responses">
+                        <div class="open__responses">
+                            <p>Открыть ответы</p>
+                        </div>
+
+                        <div class="click__responses">
+                            <p>45</p>
+                        </div>
+
+                        <div class="lane"></div>
+                    </div>
+                </div>
+
+                <div class="main__content-2">
+                    <div class="number__questions">
+                        <p>Задание 5</p>
+
+                    </div>
+                    <div class="description">
+                        <p>Укажите варианты ответов, в которых верно выделена буква, обозначающая ударный гласный звук.
+                            Запишите номера ответов.
+                        </p>
+                    </div>
+                    <div class="questions">
+                        <p>1. свеклА</p>
+
+                        <p>2. сосредоточЕние</p>
+
+                        <p>3. средствА</p>
+
+                        <p>4. столЯр</p>
+
+                        <p>5. тОрты</p>
+                    </div>
+
+                    <div class="responses">
+                        <div class="open__responses">
+                            <p>Открыть ответы</p>
+                        </div>
+
+                        <div class="click__responses">
+                            <p>45</p>
+                        </div>
+
+                        <div class="lane"></div>
+                    </div>
+                </div>
+
+                <div class="main__content-2">
+                    <div class="number__questions">
+                        <p>Задание 6</p>
+
+                    </div>
+                    <div class="description">
+                        <p>Укажите варианты ответов, в которых верно выделена буква, обозначающая ударный гласный звук.
+                            Запишите номера ответов.
+                        </p>
+                    </div>
+                    <div class="questions">
+                        <p>1. тУфля</p>
+
+                        <p>2. шарфЫ</p>
+
+                        <p>3. шОфер</p>
+
+                        <p>4. цепОчка</p>
+
+                        <p>5. цемЕнт</p>
+                    </div>
+
+                    <div class="responses">
+                        <div class="open__responses">
+                            <p>Открыть ответы</p>
+                        </div>
+
+                        <div class="click__responses">
+                            <p>45</p>
+                        </div>
+
+                        <div class="lane"></div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="main__responsive-3" id="main__responsive">
+                <div class="heading">
+                    <p>Существительные и прилагательные. Практика</p>
+                </div>
+                <div class="main__content-2">
+                    <div class="number__questions">
+                        <p>Задание 1</p>
+
+                    </div>
+                    <div class="description">
+                        <p>Укажите варианты ответов, в которых верно выделена буква, обозначающая ударный гласный звук.
+                            Запишите номера ответов.
+                        </p>
+                    </div>
+                    <div class="questions">
+                        <p>1. вернА</p>
+
+                        <p>2. тОрты</p>
+
+                        <p>3. красивЕе</p>
+
+                        <p>4. туфлЯ</p>
+
+                        <p>5. столЯр</p>
+                    </div>
+
+                    <div class="responses">
+                        <div class="open__responses">
+                            <p>Открыть ответы</p>
+                        </div>
+
+                        <div class="click__responses">
+                            <p>45</p>
+                        </div>
+
+                        <div class="lane"></div>
+                    </div>
+                </div>
+
+                <div class="main__content-2">
+                    <div class="number__questions">
+                        <p>Задание 2</p>
+
+                    </div>
+                    <div class="description">
+                        <p>Укажите варианты ответов, в которых верно выделена буква, обозначающая ударный гласный звук.
+                            Запишите номера ответов.
+                        </p>
+                    </div>
+                    <div class="questions">
+                        <p>1. свЁкла</p>
+
+                        <p>2. кухОнный</p>
+
+                        <p>3. сосредоточЕние</p>
+
+                        <p>4. знАчимый</p>
+
+                        <p>5. средствА</p>
+                    </div>
+
+                    <div class="responses">
+                        <div class="open__responses">
+                            <p>Открыть ответы</p>
+                        </div>
+
+                        <div class="click__responses">
+                            <p>45</p>
+                        </div>
+
+                        <div class="lane"></div>
+                    </div>
+                </div>
+
+                <div class="main__content-2">
+                    <div class="number__questions">
+                        <p>Задание 3</p>
+
+                    </div>
+                    <div class="description">
+                        <p>Укажите варианты ответов, в которых верно выделена буква, обозначающая ударный гласный звук.
+                            Запишите номера ответов.
+                        </p>
+                    </div>
+                    <div class="questions">
+                        <p>1. придАное</p>
+
+                        <p>2. пАртер</p>
+
+                        <p>3. Отрочество</p>
+
+                        <p>4. мозАичный</p>
+
+                        <p>5. лОвка</p>
+                    </div>
+
+                    <div class="responses">
+                        <div class="open__responses">
+                            <p>Открыть ответы</p>
+                        </div>
+
+                        <div class="click__responses">
+                            <p>45</p>
+                        </div>
+
+                        <div class="lane"></div>
+                    </div>
+                </div>
+
+                <div class="main__content-2">
+                    <div class="number__questions">
+                        <p>Задание 4</p>
+
+                    </div>
+                    <div class="description">
+                        <p>Укажите варианты ответов, в которых верно выделена буква, обозначающая ударный гласный звук.
+                            Запишите номера ответов.
+                        </p>
+                    </div>
+                    <div class="questions">
+                        <p>1. Оптовый</p>
+
+                        <p>2. нОгтя</p>
+
+                        <p>3. нефтепровОд</p>
+
+                        <p>4. слИвовый</p>
+
+                        <p>5. лОктя</p>
+                    </div>
+
+                    <div class="responses">
+                        <div class="open__responses">
+                            <p>Открыть ответы</p>
+                        </div>
+
+                        <div class="click__responses">
+                            <p>45</p>
+                        </div>
+
+                        <div class="lane"></div>
+                    </div>
+                </div>
+
+                <div class="main__content-2">
+                    <div class="number__questions">
+                        <p>Задание 5</p>
+
+                    </div>
+                    <div class="description">
+                        <p>Укажите варианты ответов, в которых верно выделена буква, обозначающая ударный гласный звук.
+                            Запишите номера ответов.
+                        </p>
+                    </div>
+                    <div class="questions">
+                        <p>1. кремнЯ</p>
+
+                        <p>2. квАртал</p>
+
+                        <p>3. катАлог</p>
+
+                        <p>4. жалюзИ</p>
+
+                        <p>5. прозОрлива</p>
+                    </div>
+
+                    <div class="responses">
+                        <div class="open__responses">
+                            <p>Открыть ответы</p>
+                        </div>
+
+                        <div class="click__responses">
+                            <p>45</p>
+                        </div>
+
+                        <div class="lane"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="main__responsive-4" id="main__responsive">
+                <div class="heading">
+                    <p>Глаголы. Практика</p>
+                </div>
+                <div class="main__content-2">
+                    <div class="number__questions">
+                        <p>Задание 1</p>
+
+                    </div>
+                    <div class="description">
+                        <p>Укажите варианты ответов, в которых верно выделена буква, обозначающая ударный гласный звук.
+                            Запишите номера ответов.
+                        </p>
+                    </div>
+                    <div class="questions">
+                        <p>1. бралА</p>
+
+                        <p>2. воспринЯть</p>
+
+                        <p>3. врУчит</p>
+
+                        <p>4. дозвонИтся</p>
+
+                        <p>5. закупОрить</p>
+                    </div>
+
+                    <div class="responses">
+                        <div class="open__responses">
+                            <p>Открыть ответы</p>
+                        </div>
+
+                        <div class="click__responses">
+                            <p>24</p>
+                        </div>
+
+                        <div class="lane"></div>
+                    </div>
+                </div>
+
+                <div class="main__content-2">
+                    <div class="number__questions">
+                        <p>Задание 2</p>
+
+                    </div>
+                    <div class="description">
+                        <p>Укажите варианты ответов, в которых верно выделена буква, обозначающая ударный гласный звук.
+                            Запишите номера ответов.
+                        </p>
+                    </div>
+                    <div class="questions">
+                        <p>1. взЯла</p>
+
+                        <p>2. дозировАть</p>
+
+                        <p>3. ждалА</p>
+
+                        <p>4. зАнял</p>
+
+                        <p>5. кАшлянуть</p>
+                    </div>
+
+                    <div class="responses">
+                        <div class="open__responses">
+                            <p>Открыть ответы</p>
+                        </div>
+
+                        <div class="click__responses">
+                            <p>145</p>
+                        </div>
+
+                        <div class="lane"></div>
+                    </div>
+                </div>
+
+                <div class="main__content-2">
+                    <div class="number__questions">
+                        <p>Задание 3</p>
+
+                    </div>
+                    <div class="description">
+                        <p>Укажите варианты ответов, в которых верно выделена буква, обозначающая ударный гласный звук.
+                            Запишите номера ответов.
+                        </p>
+                    </div>
+                    <div class="questions">
+                        <p>1. ворвалАсь</p>
+
+                        <p>2. звонИт</p>
+
+                        <p>3. клалА</p>
+
+                        <p>4. клЕить</p>
+
+                        <p>5. кровОточить</p>
+                    </div>
+
+                    <div class="responses">
+                        <div class="open__responses">
+                            <p>Открыть ответы</p>
+                        </div>
+
+                        <div class="click__responses">
+                            <p>124</p>
+                        </div>
+
+                        <div class="lane"></div>
+                    </div>
+                </div>
+
+                <div class="main__content-2">
+                    <div class="number__questions">
+                        <p>Задание 4</p>
+
+                    </div>
+                    <div class="description">
+                        <p>Укажите варианты ответов, в которых верно выделена буква, обозначающая ударный гласный звук.
+                            Запишите номера ответов.
+                        </p>
+                    </div>
+                    <div class="questions">
+                        <p>1. влилАсь</p>
+
+                        <p>2. защЕмит</p>
+
+                        <p>3. крАлась</p>
+
+                        <p>4. обзвонИт</p>
+
+                        <p>5. обогнАла</p>
+                    </div>
+
+                    <div class="responses">
+                        <div class="open__responses">
+                            <p>Открыть ответы</p>
+                        </div>
+
+                        <div class="click__responses">
+                            <p>125</p>
+                        </div>
+
+                        <div class="lane"></div>
+                    </div>
+                </div>
+
+                <div class="main__content-2">
+                    <div class="number__questions">
+                        <p>Задание 5</p>
+
+                    </div>
+                    <div class="description">
+                        <p>Укажите варианты ответов, в которых верно выделена буква, обозначающая ударный гласный звук.
+                            Запишите номера ответов.
+                        </p>
+                    </div>
+                    <div class="questions">
+                        <p>1. гнАла</p>
+
+                        <p>2. занялА</p>
+
+                        <p>3. облЕгчит</p>
+
+                        <p>4. ободрАла</p>
+
+                        <p>5. ободрИт</p>
+                    </div>
+
+                    <div class="responses">
+                        <div class="open__responses">
+                            <p>Открыть ответы</p>
+                        </div>
+
+                        <div class="click__responses">
+                            <p>25</p>
+                        </div>
+
+                        <div class="lane"></div>
+                    </div>
+                </div>
+
+                <div class="main__content-2">
+                    <div class="number__questions">
+                        <p>Задание 6</p>
+
+                    </div>
+                    <div class="description">
+                        <p>Укажите варианты ответов, в которых верно выделена буква, обозначающая ударный гласный звук.
+                            Запишите номера ответов.
+                        </p>
+                    </div>
+                    <div class="questions">
+                        <p>1. заперлА</p>
+
+                        <p>2. запломбИровать</p>
+
+                        <p>3. лИла</p>
+
+                        <p>4. откУпорит</p>
+
+                        <p>5. положИл</p>
+                    </div>
+
+                    <div class="responses">
+                        <div class="open__responses">
+                            <p>Открыть ответы</p>
+                        </div>
+
+                        <div class="click__responses">
+                            <p>245</p>
+                        </div>
+
+                        <div class="lane"></div>
+                    </div>
+                </div>
+
+                <div class="main__content-2">
+                    <div class="number__questions">
+                        <p>Задание 7</p>
+
+                    </div>
+                    <div class="description">
+                        <p>Укажите варианты ответов, в которых верно выделена буква, обозначающая ударный гласный звук.
+                            Запишите номера ответов.
+                        </p>
+                    </div>
+                    <div class="questions">
+                        <p>1. лгалА</p>
+
+                        <p>2. озлобИть</p>
+
+                        <p>3. опОшлит</p>
+
+                        <p>4. плодонОсить</p>
+
+                        <p>5. пломбИровать</p>
+                    </div>
+
+                    <div class="responses">
+                        <div class="open__responses">
+                            <p>Открыть ответы</p>
+                        </div>
+
+                        <div class="click__responses">
+                            <p>1235</p>
+                        </div>
+
+                        <div class="lane"></div>
+                    </div>
+                </div>
+
+                <div class="main__content-2">
+                    <div class="number__questions">
+                        <p>Задание 8</p>
+
+                    </div>
+                    <div class="description">
+                        <p>Укажите варианты ответов, в которых верно выделена буква, обозначающая ударный гласный звук.
+                            Запишите номера ответов.
+                        </p>
+                    </div>
+                    <div class="questions">
+                        <p>1. наврАла</p>
+
+                        <p>2. окрУжит</p>
+
+                        <p>3. осведомИться</p>
+
+                        <p>4. послАла</p>
+
+                        <p>5. прИбыл</p>
+                    </div>
+
+                    <div class="responses">
+                        <div class="open__responses">
+                            <p>Открыть ответы</p>
+                        </div>
+
+                        <div class="click__responses">
+                            <p>235</p>
+                        </div>
+
+                        <div class="lane"></div>
+                    </div>
+                </div>
+
+                <div class="main__content-2">
+                    <div class="number__questions">
+                        <p>Задание 9</p>
+
+                    </div>
+                    <div class="description">
+                        <p>Укажите варианты ответов, в которых верно выделена буква, обозначающая ударный гласный звук.
+                            Запишите номера ответов.
+                        </p>
+                    </div>
+                    <div class="questions">
+                        <p>1. рвалА</p>
+
+                        <p>2. свЕрлит</p>
+
+                        <p>3. углУбить</p>
+
+                        <p>4. черпАть</p>
+
+                        <p>5. создалА</p>
+                    </div>
+
+                    <div class="responses">
+                        <div class="open__responses">
+                            <p>Открыть ответы</p>
+                        </div>
+
+                        <div class="click__responses">
+                            <p>34</p>
+                        </div>
+
+                        <div class="lane"></div>
+                    </div>
+                </div>
+
+                <div class="main__content-2">
+                    <div class="number__questions">
+                        <p>Задание 10</p>
+
+                    </div>
+                    <div class="description">
+                        <p>Укажите варианты ответов, в которых верно выделена буква, обозначающая ударный гласный звук.
+                            Запишите номера ответов.
+                        </p>
+                    </div>
+                    <div class="questions">
+                        <p>1. совралА</p>
+
+                        <p>2. укрепИт</p>
+
+                        <p>3. щЁлкать</p>
+
+                        <p>4. сОрит</p>
+
+                        <p>5. щемИт</p>
+                    </div>
+
+                    <div class="responses">
+                        <div class="open__responses">
+                            <p>Открыть ответы</p>
+                        </div>
+
+                        <div class="click__responses">
+                            <p>34</p>
+                        </div>
+
+                        <div class="lane"></div>
+                    </div>
+                </div>
+
+                <div class="main__content-2">
+                    <div class="number__questions">
+                        <p>Задание 11</p>
+
+                    </div>
+                    <div class="description">
+                        <p>Укажите варианты ответов, в которых верно выделена буква, обозначающая ударный гласный звук.
+                            Запишите номера ответов.
+                        </p>
+                    </div>
+                    <div class="questions">
+                        <p>1. недрУг</p>
+
+                        <p>2. накренИться</p>
+
+                        <p>3. досУг</p>
+
+                        <p>4. тУфля</p>
+
+                        <p>5. нАчать</p>
+                    </div>
+
+                    <div class="responses">
+                        <div class="open__responses">
+                            <p>Открыть ответы</p>
+                        </div>
+
+                        <div class="click__responses">
+                            <p>234</p>
+                        </div>
+
+                        <div class="lane"></div>
+                    </div>
+                </div>
+
+                <div class="main__content-2">
+                    <div class="number__questions">
+                        <p>Задание 12</p>
+
+                    </div>
+                    <div class="description">
+                        <p>Укажите варианты ответов, в которых верно выделена буква, обозначающая ударный гласный звук.
+                            Запишите номера ответов.
+                        </p>
+                    </div>
+                    <div class="questions">
+                        <p>1. прибылА</p>
+
+                        <p>2. обОдрит</p>
+
+                        <p>3. позвонИт</p>
+
+                        <p>4. нОгтя</p>
+
+                        <p>5. прИданое</p>
+                    </div>
+
+                    <div class="responses">
+                        <div class="open__responses">
+                            <p>Открыть ответы</p>
+                        </div>
+
+                        <div class="click__responses">
+                            <p>134</p>
+                        </div>
+
+                        <div class="lane"></div>
+                    </div>
+                </div>
+
+                <div class="main__content-2">
+                    <div class="number__questions">
+                        <p>Задание 13</p>
+
+                    </div>
+                    <div class="description">
+                        <p>Укажите варианты ответов, в которых верно выделена буква, обозначающая ударный гласный звук.
+                            Запишите номера ответов.
+                        </p>
+                    </div>
+                    <div class="questions">
+                        <p>1. некролОг</p>
+
+                        <p>2. намерЕние</p>
+
+                        <p>3. договорЁнность</p>
+
+                        <p>4. сОрит</p>
+
+                        <p>5. одОлжит</p>
+                    </div>
+
+                    <div class="responses">
+                        <div class="open__responses">
+                            <p>Открыть ответы</p>
+                        </div>
+
+                        <div class="click__responses">
+                            <p>13</p>
+                        </div>
+
+                        <div class="lane"></div>
+                    </div>
+                </div>
+
+                <div class="main__content-2">
+                    <div class="number__questions">
+                        <p>Задание 14</p>
+
+                    </div>
+                    <div class="description">
+                        <p>Укажите варианты ответов, в которых верно выделена буква, обозначающая ударный гласный звук.
+                            Запишите номера ответов.
+                        </p>
+                    </div>
+                    <div class="questions">
+                        <p>1. катАлог</p>
+
+                        <p>2. сверлИт</p>
+
+                        <p>3. лОктя</p>
+
+                        <p>4. гнАлась</p>
+
+                        <p>5. лыжнЯ</p>
+                    </div>
+
+                    <div class="responses">
+                        <div class="open__responses">
+                            <p>Открыть ответы</p>
+                        </div>
+
+                        <div class="click__responses">
+                            <p>235</p>
+                        </div>
+
+                        <div class="lane"></div>
+                    </div>
+                </div>
+
+                <div class="main__content-2">
+                    <div class="number__questions">
+                        <p>Задание 15</p>
+
+                    </div>
+                    <div class="description">
+                        <p>Укажите варианты ответов, в которых верно выделена буква, обозначающая ударный гласный звук.
+                            Запишите номера ответов.
+                        </p>
+                    </div>
+                    <div class="questions">
+                        <p>1. ворвалАсь</p>
+
+                        <p>2. наврАла</p>
+
+                        <p>3. Иксы</p>
+
+                        <p>4. озлОбить</p>
+
+                        <p>5. щелкАть</p>
+                    </div>
+
+                    <div class="responses">
+                        <div class="open__responses">
+                            <p>Открыть ответы</p>
+                        </div>
+
+                        <div class="click__responses">
+                            <p>134</p>
+                        </div>
+
+                        <div class="lane"></div>
+                    </div>
+                </div>
+
+                <div class="main__content-2">
+                    <div class="number__questions">
+                        <p>Задание 16</p>
+
+                    </div>
+                    <div class="description">
+                        <p>Укажите варианты ответов, в которых верно выделена буква, обозначающая ударный гласный звук.
+                            Запишите номера ответов.
+                        </p>
+                    </div>
+                    <div class="questions">
+                        <p>1. нЕдруг</p>
+
+                        <p>2. зАнял</p>
+
+                        <p>3. центнЕр</p>
+
+                        <p>4. послалА</p>
+
+                        <p>5. пАртер</p>
+                    </div>
+
+                    <div class="responses">
+                        <div class="open__responses">
+                            <p>Открыть ответы</p>
+                        </div>
+
+                        <div class="click__responses">
+                            <p>12</p>
+                        </div>
+
+                        <div class="lane"></div>
+                    </div>
+                </div>
+
+                <div class="main__content-2">
+                    <div class="number__questions">
+                        <p>Задание 17</p>
+
+                    </div>
+                    <div class="description">
+                        <p>Укажите варианты ответов, в которых верно выделена буква, обозначающая ударный гласный звук.
+                            Запишите номера ответов.
+                        </p>
+                    </div>
+                    <div class="questions">
+                        <p>1. перелилА</p>
+
+                        <p>2. мЕстностей</p>
+
+                        <p>3. чЕрпать</p>
+
+                        <p>4. заселенА</p>
+
+                        <p>5. окрУжит</p>
+                    </div>
+
+                    <div class="responses">
+                        <div class="open__responses">
+                            <p>Открыть ответы</p>
+                        </div>
+
+                        <div class="click__responses">
+                            <p>1234</p>
+                        </div>
+
+                        <div class="lane"></div>
+                    </div>
+                </div>
+
+                <div class="main__content-2">
+                    <div class="number__questions">
+                        <p>Задание 18</p>
+
+                    </div>
+                    <div class="description">
+                        <p>Укажите варианты ответов, в которых верно выделена буква, обозначающая ударный гласный звук.
+                            Запишите номера ответов.
+                        </p>
+                    </div>
+                    <div class="questions">
+                        <p>1. положИл</p>
+
+                        <p>2. тАможня</p>
+
+                        <p>3. кровотОчить</p>
+
+                        <p>4. облЕгчить</p>
+
+                        <p>5. нарОст</p>
+                    </div>
+
+                    <div class="responses">
+                        <div class="open__responses">
+                            <p>Открыть ответы</p>
+                        </div>
+
+                        <div class="click__responses">
+                            <p>15</p>
+                        </div>
+
+                        <div class="lane"></div>
+                    </div>
+                </div>
+
+                <div class="main__content-2">
+                    <div class="number__questions">
+                        <p>Задание 19</p>
+
+                    </div>
+                    <div class="description">
+                        <p>Укажите варианты ответов, в которых верно выделена буква, обозначающая ударный гласный звук.
+                            Запишите номера ответов.
+                        </p>
+                    </div>
+                    <div class="questions">
+                        <p>1. прИбыл</p>
+
+                        <p>2. лилАсь</p>
+
+                        <p>3. вероисповедАние</p>
+
+                        <p>4. бухгалтерОв</p>
+
+                        <p>5. надЕлит</p>
+                    </div>
+
+                    <div class="responses">
+                        <div class="open__responses">
+                            <p>Открыть ответы</p>
+                        </div>
+
+                        <div class="click__responses">
+                            <p>12</p>
+                        </div>
+
+                        <div class="lane"></div>
+                    </div>
+                </div>
+
+                <div class="main__content-2">
+                    <div class="number__questions">
+                        <p>Задание 20</p>
+
+                    </div>
+                    <div class="description">
+                        <p>Укажите варианты ответов, в которых верно выделена буква, обозначающая ударный гласный звук.
+                            Запишите номера ответов.
+                        </p>
+                    </div>
+                    <div class="questions">
+                        <p>1. клЕить</p>
+
+                        <p>2. снЯла</p>
+
+                        <p>3. озлОбить</p>
+
+                        <p>4. аэропортЫ</p>
+
+                        <p>5. пОручни</p>
+                    </div>
+
+                    <div class="responses">
+                        <div class="open__responses">
+                            <p>Открыть ответы</p>
+                        </div>
+
+                        <div class="click__responses">
+                            <p>135</p>
+                        </div>
+
+                        <div class="lane"></div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="main__responsive-5" id="main__responsive">
+                <div class="main__content-2">
+
+                    <div class="heading">
+                        <p>Глаголы. Практика</p>
+                    </div>
+
+                    <div class="number__questions">
+                        <p>Задание 1</p>
+
+                    </div>
+                    <div class="description">
+                        <p>Укажите варианты ответов, в которых верно выделена буква, обозначающая ударный гласный звук.
+                            Запишите номера ответов.
+                        </p>
+                    </div>
+                    <div class="questions">
+                        <p>1. зАгнутый</p>
+
+                        <p>2. закУпорив</p>
+
+                        <p>3. донЕльзя</p>
+
+                        <p>4. дозвонИтся</p>
+
+                        <p>5. закупОрить</p>
+                    </div>
+
+                    <div class="responses">
+                        <div class="open__responses">
+                            <p>Открыть ответы</p>
+                        </div>
+
+                        <div class="click__responses">
+                            <p>24</p>
+                        </div>
+
+                        <div class="lane"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="main__responsive-6" id="main__responsive">
+                <div class="heading">
+                    <p>Отглагольные части речи. Практика</p>
+                </div>
+                <div class="main__content-2">
+                    <div class="number__questions">
+                        <p>Задание 1</p>
+                
+                    </div>
+                    <div class="description">
+                        <p>Укажите варианты ответов, в которых верно выделена буква, обозначающая ударный гласный звук.
+                            Запишите номера ответов.
+                        </p>
+                    </div>
+                    <div class="questions">
+                        <p>1. зАгнутый</p>
+                
+                        <p>2. закУпорив</p>
+                
+                        <p>3. донЕльзя</p>
+                
+                        <p>4. занятА</p>
+                
+                        <p>5. пОняв</p>
+                    </div>
+                
+                    <div class="responses">
+                        <div class="open__responses">
+                            <p>Открыть ответы</p>
+                        </div>
+                
+                        <div class="click__responses">
+                            <p>1234</p>
+                        </div>
+                
+                        <div class="lane"></div>
+                    </div>
+                </div>
+
+                <div class="main__content-2">
+                    <div class="number__questions">
+                        <p>Задание 2</p>
+                
+                    </div>
+                    <div class="description">
+                        <p>Укажите варианты ответов, в которых верно выделена буква, обозначающая ударный гласный звук.
+                            Запишите номера ответов.
+                        </p>
+                    </div>
+                    <div class="questions">
+                        <p>1. кровотОчащий</p>
+                
+                        <p>2. нанЯвшийся</p>
+                
+                        <p>3. создАв</p>
+                
+                        <p>4. дОсуха</p>
+                
+                        <p>5. облегчЁнный</p>
+                    </div>
+                
+                    <div class="responses">
+                        <div class="open__responses">
+                            <p>Открыть ответы</p>
+                        </div>
+                
+                        <div class="click__responses">
+                            <p>2345</p>
+                        </div>
+                
+                        <div class="lane"></div>
+                    </div>
+                </div>
+
+                <div class="main__content-2">
+                    <div class="number__questions">
+                        <p>Задание 3</p>
+                
+                    </div>
+                    <div class="description">
+                        <p>Укажите варианты ответов, в которых верно выделена буква, обозначающая ударный гласный звук.
+                            Запишите номера ответов.
+                        </p>
+                    </div>
+                    <div class="questions">
+                        <p>1. отключЁнный</p>
+                
+                        <p>2. начАв</p>
+                
+                        <p>3. красивЕе</p>
+                
+                        <p>4. сОгнутый</p>
+                
+                        <p>5. прожИвший</p>
+                    </div>
+                
+                    <div class="responses">
+                        <div class="open__responses">
+                            <p>Открыть ответы</p>
+                        </div>
+                
+                        <div class="click__responses">
+                            <p>1245</p>
+                        </div>
+                
+                        <div class="lane"></div>
+                    </div>
+                </div>
+
+                <div class="main__content-2">
+                    <div class="number__questions">
+                        <p>Задание 4</p>
+                
+                    </div>
+                    <div class="description">
+                        <p>Укажите варианты ответов, в которых верно выделена буква, обозначающая ударный гласный звук.
+                            Запишите номера ответов.
+                        </p>
+                    </div>
+                    <div class="questions">
+                        <p>1. прИнята</p>
+                
+                        <p>2. снЯта</p>
+                
+                        <p>3. отдАв</p>
+                
+                        <p>4. красИвее</p>
+                
+                        <p>5. дОнельзя</p>
+                    </div>
+                
+                    <div class="responses">
+                        <div class="open__responses">
+                            <p>Открыть ответы</p>
+                        </div>
+                
+                        <div class="click__responses">
+                            <p>34</p>
+                        </div>
+                
+                        <div class="lane"></div>
+                    </div>
+                </div>
+
+            <div class="main__responsive-7" id="main__responsive">
+                <div class="heading">
+                    <p>Общий тест</p>
+                </div>
+                <div class="main__content-2">
+                    <div class="number__questions">
+                        <p>Задание 1</p>
+
+                    </div>
+                    <div class="description">
+                        <p>Укажите варианты ответов, в которых верно выделена буква, обозначающая ударный гласный звук.
+                            Запишите номера ответов.
+                        </p>
+                    </div>
+                    <div class="questions">
+                        <p>1. туфлЯ</p>
+
+                        <p>2. понЯв</p>
+
+                        <p>3. дОнельзя</p>
+
+                        <p>4. корЫсть</p>
+
+                        <p>5. Оптовый</p>
+                    </div>
+
+                    <div class="responses">
+                        <div class="open__responses">
+                            <p>Открыть ответы</p>
+                        </div>
+
+                        <div class="click__responses">
+                            <p>24</p>
+                        </div>
+
+                        <div class="lane"></div>
+                    </div>
+                </div>
+
+                <div class="main__content-2">
+                    <div class="number__questions">
+                        <p>Задание 2</p>
+
+                    </div>
+                    <div class="description">
+                        <p>Укажите варианты ответов, в которых верно выделена буква, обозначающая ударный гласный звук.
+                            Запишите номера ответов.
+                        </p>
+                    </div>
+                    <div class="questions">
+                        <p>1. вероисповЕдание</p>
+
+                        <p>2. мусоропрОвод</p>
+
+                        <p>3. Оптовый</p>
+
+                        <p>4. клАла</p>
+
+                        <p>5. зАгнутый</p>
+                    </div>
+
+                    <div class="responses">
+                        <div class="open__responses">
+                            <p>Открыть ответы</p>
+                        </div>
+
+                        <div class="click__responses">
+                            <p>145</p>
+                        </div>
+
+                        <div class="lane"></div>
+                    </div>
+                </div>
+
+                <div class="main__content-2">
+                    <div class="number__questions">
+                        <p>Задание 3</p>
+
+                    </div>
+                    <div class="description">
+                        <p>Укажите варианты ответов, в которых верно выделена буква, обозначающая ударный гласный звук.
+                            Запишите номера ответов.
+                        </p>
+                    </div>
+                    <div class="questions">
+                        <p>1. дОсуха</p>
+
+                        <p>2. сОздав</p>
+
+                        <p>3. чЕрпать</p>
+
+                        <p>4. озлобИть</p>
+
+                        <p>5. средствА</p>
+                    </div>
+
+                    <div class="responses">
+                        <div class="open__responses">
+                            <p>Открыть ответы</p>
+                        </div>
+
+                        <div class="click__responses">
+                            <p>13</p>
+                        </div>
+
+                        <div class="lane"></div>
+                    </div>
+                </div>
+
+                <div class="main__content-2">
+                    <div class="number__questions">
+                        <p>Задание 4</p>
+
+                    </div>
+                    <div class="description">
+                        <p>Укажите варианты ответов, в которых верно выделена буква, обозначающая ударный гласный звук.
+                            Запишите номера ответов.
+                        </p>
+                    </div>
+                    <div class="questions">
+                        <p>1. Отрочество</p>
+
+                        <p>2. сосредотОчение</p>
+
+                        <p>3. сливОвый</p>
+
+                        <p>4. врУчит</p>
+
+                        <p>5. кровоточИть</p>
+                    </div>
+
+                    <div class="responses">
+                        <div class="open__responses">
+                            <p>Открыть ответы</p>
+                        </div>
+
+                        <div class="click__responses">
+                            <p>125</p>
+                        </div>
+
+                        <div class="lane"></div>
+                    </div>
+                </div>
+
+                <div class="main__content-2">
+                    <div class="number__questions">
+                        <p>Задание 5</p>
+
+                    </div>
+                    <div class="description">
+                        <p>Укажите варианты ответов, в которых верно выделена буква, обозначающая ударный гласный звук.
+                            Запишите номера ответов.
+                        </p>
+                    </div>
+                    <div class="questions">
+                        <p>1. накрЕнится</p>
+
+                        <p>2. понЯвший</p>
+
+                        <p>3. прИбыв</p>
+
+                        <p>4. красивЕе</p>
+
+                        <p>5. диспансЕр</p>
+                    </div>
+
+                    <div class="responses">
+                        <div class="open__responses">
+                            <p>Открыть ответы</p>
+                        </div>
+
+                        <div class="click__responses">
+                            <p>25</p>
+                        </div>
+
+                        <div class="lane"></div>
+                    </div>
+                </div>
+
+                <div class="main__content-2">
+                    <div class="number__questions">
+                        <p>Задание 6</p>
+
+                    </div>
+                    <div class="description">
+                        <p>Укажите варианты ответов, в которых верно выделена буква, обозначающая ударный гласный звук.
+                            Запишите номера ответов.
+                        </p>
+                    </div>
+                    <div class="questions">
+                        <p>1. жАлюзи</p>
+
+                        <p>2. шАрфы</p>
+
+                        <p>3. мозАичный</p>
+
+                        <p>4. крАлась</p>
+
+                        <p>5. облегчИть</p>
+                    </div>
+
+                    <div class="responses">
+                        <div class="open__responses">
+                            <p>Открыть ответы</p>
+                        </div>
+
+                        <div class="click__responses">
+                            <p>245</p>
+                        </div>
+
+                        <div class="lane"></div>
+                    </div>
+                </div>
+
+                <div class="main__content-2">
+                    <div class="number__questions">
+                        <p>Задание 7</p>
+
+                    </div>
+                    <div class="description">
+                        <p>Укажите варианты ответов, в которых верно выделена буква, обозначающая ударный гласный звук.
+                            Запишите номера ответов.
+                        </p>
+                    </div>
+                    <div class="questions">
+                        <p>1. обзвонИт</p>
+
+                        <p>2. послАла</p>
+
+                        <p>3. принятА</p>
+
+                        <p>4. закупОрив</p>
+
+                        <p>5. пломбировАть</p>
+                    </div>
+
+                    <div class="responses">
+                        <div class="open__responses">
+                            <p>Открыть ответы</p>
+                        </div>
+
+                        <div class="click__responses">
+                            <p>1235</p>
+                        </div>
+
+                        <div class="lane"></div>
+                    </div>
+                </div>
+
+                <div class="main__content-2">
+                    <div class="number__questions">
+                        <p>Задание 8</p>
+
+                    </div>
+                    <div class="description">
+                        <p>Укажите варианты ответов, в которых верно выделена буква, обозначающая ударный гласный звук.
+                            Запишите номера ответов.
+                        </p>
+                    </div>
+                    <div class="questions">
+                        <p>1. сОрит</p>
+
+                        <p>2. снятА</p>
+
+                        <p>3. надорвалАсь</p>
+
+                        <p>4. лОвка</p>
+
+                        <p>5. тУфля</p>
+                    </div>
+
+                    <div class="responses">
+                        <div class="open__responses">
+                            <p>Открыть ответы</p>
+                        </div>
+
+                        <div class="click__responses">
+                            <p>235</p>
+                        </div>
+
+                        <div class="lane"></div>
+                    </div>
+                </div>
+
+                <div class="main__content-2">
+                    <div class="number__questions">
+                        <p>Задание 9</p>
+
+                    </div>
+                    <div class="description">
+                        <p>Укажите варианты ответов, в которых верно выделена буква, обозначающая ударный гласный звук.
+                            Запишите номера ответов.
+                        </p>
+                    </div>
+                    <div class="questions">
+                        <p>1. свеклА</p>
+
+                        <p>2. крЕмень</p>
+
+                        <p>3. бухгАлтеров</p>
+
+                        <p>4. плодоносИть</p>
+
+                        <p>5. отклЮченный</p>
+                    </div>
+
+                    <div class="responses">
+                        <div class="open__responses">
+                            <p>Открыть ответы</p>
+                        </div>
+
+                        <div class="click__responses">
+                            <p>34</p>
+                        </div>
+
+                        <div class="lane"></div>
+                    </div>
+                </div>
+            </div>
+
+            <script src="script4.js"></script>
+</body>
+
+<script src="Java.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,971 @@
+<!-- <!doctype html>
+<html lang="ru">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>РУСЕГЭ: тесты реальной сложности</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
+    <link href="https://getbootstrap.com/docs/5.2/assets/css/docs.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="macbook.css">
+    <script src="Java.js"></script>
+    <link rel="stylesheet" href="css.css">
+
+
+    </link>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <link rel="stylesheet" href="navbar.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css2?NotoSansKorean&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="navbar-all" style="width: 100%;height: 100px;">
+        <nav class="navbar-nav-scroll">
+            <input id="nav-toggle" type="checkbox">
+            <a href="index.html" style="text-decoration: none;">
+        
+                <img src="Лого.png" alt="РУСЕГЭ" style="width: 160px;height: 80px; position: static;">
+            </a>
+            <ul class="links">
+                <li><a href="check-list.html">Бесплатные материалы</a></li>
+                <li><a href="solve-the-probe.html">Решить пробник</a></li>
+                <li><a href="shop.html">Магазин</a></li>
+                <li><a href="news.html">Новое</a></li>
+                <li><a href="contact.html">Контакты</a></li>
+            </ul>
+            <label for="nav-toggle" class="icon-burger">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </label>
+        </nav>
+    </div>
+    <input type="checkbox" id="burger_checkbox" style="display: none;">
+    <label class="burger" for="burger_checkbox" style="z-index: 1001;">
+<i class='bx bx-menu bx-md'></i>
+
+    </label>
+
+
+
+
+
+
+
+
+
+    <div class="sidebar">
+
+        <ul class="side-menu">
+
+            <div class="accordion accordion-flush" id="accordionFlushExample">
+
+
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne" style="width: calc(100% - 3px);
+    height: 100%;
+    
+    background: #7fd3e2;
+    display: flex;
+    align-items: center;
+    border-radius: 48px;
+    font-size: 16px;
+   
+    color: white;
+    white-space: nowrap;
+    
+    overflow-x: hidden;"> <i class='bx bxs-category'
+                        style="font-size: 1.6rem;min-width: calc(60px - ((4px + 6px) * 2));margin-left: -7px;"></i>ЕГЭ
+                </button>
+
+                <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
+                    data-bs-parent="#accordionFlushExample1">
+
+
+
+
+                    <li ><a href="1html.html"><i class='bx bx-chevrons-right'></i>1 задание</a></li>
+                    <li><a href="2html.html"><i class='bx bx-chevrons-right'></i>2 задание</a></li>
+                    <li><a href="3html.html"><i class='bx bx-chevrons-right'></i>3 задание</a></li>
+                    <li><a href="4html.html"><i class='bx bx-chevrons-right'></i>4 задание</a></li>
+                    <li><a href="5html.html"><i class='bx bx-chevrons-right'></i>5 задание</a></li>
+                    <li><a href="6html.html"><i class='bx bx-chevrons-right'></i>6 задание</a></li>
+                    <li><a href="7html.html"><i class='bx bx-chevrons-right'></i>7 задание</a></li>
+                    <li><a href="8html.html"><i class='bx bx-chevrons-right'></i>8 задание</a></li>
+                    <li class="active"><a href="9html.html"><i class='bx bx-chevrons-right'></i>9 задание</a></li>
+                    <li><a href="10html.html"><i class='bx bx-chevrons-right'></i>10 задание</a></li>
+                    <li><a href="11html.html"><i class='bx bx-chevrons-right'></i>11 задание</a></li>
+                    <li><a href="12html.html"><i class='bx bx-chevrons-right'></i>12 задание</a></li>
+                    <li><a href="13html.html"><i class='bx bx-chevrons-right'></i>13 задание</a></li>
+                    <li><a href="14html.html"><i class='bx bx-chevrons-right'></i>14 задание</a></li>
+                    <li><a href="15html.html"><i class='bx bx-chevrons-right'></i>15 задание</a></li>
+                    <li><a href="16html.html"><i class='bx bx-chevrons-right'></i>16 задание</a></li>
+                    <li><a href="17html.html"><i class='bx bx-chevrons-right'></i>17 задание</a></li>
+                    <li><a href="18html.html"><i class='bx bx-chevrons-right'></i>18 задание</a></li>
+                    <li><a href="19html.html"><i class='bx bx-chevrons-right'></i>19 задание</a></li>
+                    <li><a href="20html.html"><i class='bx bx-chevrons-right'></i>20 задание</a></li>
+                    <li><a href="21html.html"><i class='bx bx-chevrons-right'></i>21 задание</a></li>
+                    <li><a href="22html.html"><i class='bx bx-chevrons-right'></i>22 задание</a></li>
+                    <li><a href="23html.html"><i class='bx bx-chevrons-right'></i>23 задание</a></li>
+                    <li><a href="24html.html"><i class='bx bx-chevrons-right'></i>24 задание</a></li>
+                    <li><a href="25html.html"><i class='bx bx-chevrons-right'></i>25 задание</a></li>
+                    <li><a href="26html.html"><i class='bx bx-chevrons-right'></i>26 задание</a></li>
+                    <li><a href="27html.html"><i class='bx bx-chevrons-right'></i>27 задание</a></li>
+                </div>
+            </div>
+
+
+
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#flush-collapseOne2" aria-expanded="false" aria-controls="flush-collapseOne" style="width: calc(100% - 3px);
+    height: 100%;
+    
+    background: #7fd3e2;
+    display: flex;
+    align-items: center;
+    border-radius: 48px;
+    font-size: 16px;
+   
+    color: white;
+    white-space: nowrap;
+    margin-top: 10px;
+    overflow-x: hidden;"> <i class='bx bxs-category'
+                    style="font-size: 1.6rem;min-width: calc(60px - ((4px + 6px) * 2));margin-left: -7px;"></i>ОГЭ
+                </button>
+                
+                <div id="flush-collapseOne2" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
+                data-bs-parent="#accordionFlushExample2">
+                
+                
+                <li><a href="1OGE.html"><i class='bx bx-chevrons-right'></i>1 задание</a></li>
+                <li><a href="2OGE.html"><i class='bx bx-chevrons-right'></i>2 задание</a></li>
+                <li><a href="3OGE.html"><i class='bx bx-chevrons-right'></i>3 задание</a></li>
+                <li><a href="4OGE.html"><i class='bx bx-chevrons-right'></i>4 задание</a></li>
+                
+                <li><a href="5OGE.html"><i class='bx bx-chevrons-right'></i>5 задание</a></li>
+                <li><a href="6OGE.html"><i class='bx bx-chevrons-right'></i>6 задание</a></li>
+                <li><a href="7OGE.html"><i class='bx bx-chevrons-right'></i>7 задание</a></li>
+                <li><a href="8OGE.html"><i class='bx bx-chevrons-right'></i>8 задание</a></li>
+                <li><a href="9OGE.html"><i class='bx bx-chevrons-right'></i>9 задание</a></li>
+            </div>
+        </ul>
+        
+    </div>
+    <p style="color:#C3113D;font-size:24px; text-align: center;"><b>ЕГЭ. ЗАДАНИЕ 9</b></p>
+    <div class="all-items__4">
+        <a href="EGE9test.html">Тест</a>
+    </div>
+
+   <div class="card__position">
+    <div></div>
+        <a href="card__theory-9.html">
+            <div class="card__theory">
+                <p class="theory__p">ЗАДАНИЕ 9</p>
+                <p class="theory__p-comments">
+                    <i class='bx bxs-quote-single-right bx-flashing bx-flip-horizontal bx-sm'></i>Comments
+                </p>
+                <div class="display-icon__theory">
+                    <div class="icon__theory">
+                        <i class='bx bxs-info-square bx-flashing bx-lg'></i>
+                    </div>
+                </div>
+            </div>
+        </a>
+        <div></div>
+    </div>
+    
+    <div class="grid__class">
+        <p style="color:#C3113D;font-size:24px; text-align: center;"><b>ЕГЭ. ЗАДАНИЕ 9</b></p>
+        <a href="EGE9test.html" style="color: #046176;"><b>Тест</b></a>
+        <p class="question1" class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample1" role="button"
+            aria-expanded="false" aria-controls="collapseExample" style="color: #046176;"><b>Слова для запоминания</b></p>
+        
+        <div class="collapse" id="collapseExample1">
+            <div class="card card-body" id="card__main">
+                <p class="before1">вангард, авантюра, адвокат, альманах, аннотация, аномалия, антагонизм, апартаменты, аплодисменты,
+                апелляция, алгоритм,
+                акробат, адаптация, акварель, агрегат, абориген, авангард, аккомпаниатор, абажур, аромат, афоризм,
+                абордаж.</p>
+
+                <p class="before2">агаж, бойкот, бечева, бетон, бидон, берлога, бегемот, бизнесмен, бекас, берет, богема, ботфорт,
+                батальон, баррикада,
+                бордюр, баталист, бостон, браконьер, бакалавр, биатлон, бакалея, богатство, балласт, бандероль, балкон,
+                барьер, бокал,
+                бадминтон, бравада.</p>
+
+                <p class="before3">кансия, ватрушка, ветеринар, винегрет, вермишель, велосипед, вестибюль, ветчина, воробей, вентилятор,
+                вазелин,
+                вакцина, волейбол, валидол, валюта, вандализм, ванилин, ворковать, вельвет, велюр, вираж, вертолет,
+                виртуоз, вискоза,
+                витамин, верзила, веснушчатый, вернисаж, водевиль, виолончель, возражать, вояж.</p>
+
+                <p class="before4">бариты, гарнизон, горизонт, гиацинт, гармония, гегемония, гамак, гараж, гастролёр, генерация,
+                герметизировать,
+                гобелен.</p>
+
+                <p class="before5">езертир, декларация, дефицит, дилетант, директива, досконально, декламировать, диагоналевый, диадема,
+                дизентерия,
+                дилижанс, дифирамб, дегенерат, деликатес, диабет, диапазон, дивиденд.</p>
+
+                <p class="before6">агромождение.</p>
+
+                <p class="before7">гумен, игнорировать, иждивенец, интеллигентный, икебана, индеветь, инцидент, интерпретация,
+                идиоматический, имитация,
+                инженер, инициатива.</p>
+
+                <p class="before8">авычки, каламбур, каморка, каравай, карнавал, катастрофа, коварный, колдовать, комбинезон,
+                компетентный, компоновать,
+                компромисс, конфорка, коридор, корифей, компания, коноплянка, корнишон, камфара, компостировать,
+                ковырять, каблук,
+                карбюратор, когорта, канифоль, конкистадор, какофония, керогаз, кабриолет, канонада, канонерка,
+                кастелянша, кастрюля,
+                катавасия, катаклизм, катакомба, кашемир, кенгуру, керамика, коалиция, колибри, колчан, комар,
+                конфиденциальный,
+                коричневый, коромысло, коростель, корпорация, кабала, каракатица, кобура, контингент, кордебалет, кощей,
+                криминология.</p>
+
+                <p class="before9">инолеум, лелеять, лопата, лотерея, лягушка, люминесцентный, лампас.
+
+                <p class="before10">еридиан, меценат, мотивировать, мизинец, месяц, метрополитен, мачеха, мозоль, мавзолей, мадригал,
+                маринад, метаморфоза,
+                метеорит, миниатюра, минорный, макулатура, манипуляция, мастодонт, мегера, менингит.</p>
+
+                <p class="before11">аваждение, ностальгия, ноктюрн, натюрморт, нумерация, нафталин, нивелировать, нигилизм, новокаин,
+                нотация.</p>
+
+                <p class="before12">ригинальный, оладьи, облигация, одолеть, отображение, обагренный, олигархия,отражение, обаяние,
+                обворожить, океанолог,
+                олимпиада, омонимия, оптимистический, оранжерея, ординатура, ореол, обоняние.</p>
+
+                <p class="before13">алисадник, панорама, парадокс, паром, пессимист, пескарь, полымя, поролон, предварительный,
+                привередливый, привилегия,
+                примитивный, приоритет, памятник, пластилин, периферия, перифраз, претендент, панихида, пантеон,
+                парабола, парадигма,
+                парапет, перспектива, пирамидальный, плагиат, плеяда, побагроветь, полисемия, портьера, преамбула,
+                презентабельный,
+                президент, президиум, прерогатива, претензия, привередничать, палитра, пеликан, понтон.</p>
+
+                <p class="before14">еабилитация, регламент, резиденция, реставрировать, реаниматолог, радиатор, реверанс, регата реестр,
+                резонанс,
+                респектабельный, респиратор, референдум, рикошет, ритуал, резюме.</p>
+
+                <p class="before15">еминар, сертификат, сиреневый, сироп, собака, стипендия, стремиться, суверенитет, свидетельство,
+                свирепый, снегирь,
+                сакраментальный, спонтанный, суверенный, сентиментальный, серенада, серпантин, синтагма, скарлатина,
+                скомпонованный,
+                соната, сталактит, стрекоза, снеток.</p>
+
+                <p class="before16">арелка, теория, табурет, триада, тореадор, торшер, тотализатор, триумфальный, тротуар, трубадур,
+                трафарет.</p>
+
+                <p class="before17">трамбовать, ураган, увертюра, утилитарный.</p>
+
+                <p class="before18">илармония, форель, фестиваль, фантасмагория, феномен, фешенебельный, фиаско, фламинго, фрикаделька,
+                фронтон,
+                филателист.</p>
+                
+                <p class="before19">рестоматия, хризантема.</p>
+                
+                <p class="before20">еснок.</p>
+                
+                <p class="before21">ероховатый, шевелюра.</p>
+                
+                <p class="before22">ксперимент, экспонат, экстремальный, элемент, эликсир, эшелон, экзаменатор, экскаватор,
+                экзистенциализм,
+                экстравагантный, эпистолярный, эстакада, экипировать, энцефалит, эскалация, эсперанто.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<script type="text/javascript" >
+   (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+   m[i].l=1*new Date();
+   for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }}
+   k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+   (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+   ym(94193289, "init", {
+        clickmap:true,
+        trackLinks:true,
+        accurateTrackBounce:true,
+        webvisor:true
+   });
+</script>
+<noscript><div><img src="https://mc.yandex.ru/watch/94193289" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+
+</body>
+
+</html>
+ -->
+
+<!doctype html>
+<html lang="ru">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>РУСЕГЭ: тесты реальной сложности</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
+    <link href="https://getbootstrap.com/docs/5.2/assets/css/docs.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="macbook.css">
+    <script src="Java.js"></script>
+    <link rel="stylesheet" href="css.css">
+
+
+    </link>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <link rel="stylesheet" href="navbar.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css2?NotoSansKorean&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="navbar-all" style="width: 100%;height: 100px;">
+        <nav class="navbar-nav-scroll">
+            <input id="nav-toggle" type="checkbox">
+            <a href="index.html" style="text-decoration: none;">
+
+                <img src="Лого.png" alt="РУСЕГЭ" style="width: 160px;height: 80px; position: static;">
+            </a>
+            <ul class="links">
+                <li><a href="check-list.html">Бесплатные материалы</a></li>
+                <li><a href="solve-the-probe.html">Решить пробник</a></li>
+                <li><a href="shop.html">Магазин</a></li>
+                <li><a href="news.html">Новое</a></li>
+                <li><a href="contact.html">Контакты</a></li>
+            </ul>
+            <label for="nav-toggle" class="icon-burger">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </label>
+        </nav>
+    </div>
+    <input type="checkbox" id="burger_checkbox" style="display: none;">
+    <label class="burger" for="burger_checkbox" style="z-index: 1001;">
+        <i class='bx bx-menu bx-md'></i>
+
+    </label>
+
+
+
+
+
+
+
+
+
+    <div class="sidebar">
+
+        <ul class="side-menu">
+
+            <div class="accordion accordion-flush" id="accordionFlushExample">
+
+
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne" style="width: calc(100% - 3px);
+    background: #7fd3e2;
+    display: flex;
+    align-items: center;
+    border-radius: 48px;
+    font-size: 16px;
+   
+    color: white;
+    white-space: nowrap;
+    
+    overflow-x: hidden;"> <i class='bx bxs-category'
+                        style="font-size: 1.6rem;min-width: calc(60px - ((4px + 6px) * 2));margin-left: -7px;"></i>ЕГЭ
+                </button>
+
+                <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
+                    data-bs-parent="#accordionFlushExample1">
+
+
+
+
+                    <li><a href="1html.html"><i class='bx bx-chevrons-right'></i>1 задание</a></li>
+                    <li><a href="2html.html"><i class='bx bx-chevrons-right'></i>2 задание</a></li>
+                    <li><a href="3html.html"><i class='bx bx-chevrons-right'></i>3 задание</a></li>
+                    <li><a href="4html.html"><i class='bx bx-chevrons-right'></i>4 задание</a></li>
+                    <li><a href="5html.html"><i class='bx bx-chevrons-right'></i>5 задание</a></li>
+                    <li><a href="6html.html"><i class='bx bx-chevrons-right'></i>6 задание</a></li>
+                    <li><a href="7html.html"><i class='bx bx-chevrons-right'></i>7 задание</a></li>
+                    <li><a href="8html.html"><i class='bx bx-chevrons-right'></i>8 задание</a></li>
+                    <li class="active"><a href="9html.html"><i class='bx bx-chevrons-right'></i>9 задание</a></li>
+                    <li><a href="10html.html"><i class='bx bx-chevrons-right'></i>10 задание</a></li>
+                    <li><a href="11html.html"><i class='bx bx-chevrons-right'></i>11 задание</a></li>
+                    <li><a href="12html.html"><i class='bx bx-chevrons-right'></i>12 задание</a></li>
+                    <li><a href="13html.html"><i class='bx bx-chevrons-right'></i>13 задание</a></li>
+                    <li><a href="14html.html"><i class='bx bx-chevrons-right'></i>14 задание</a></li>
+                    <li><a href="15html.html"><i class='bx bx-chevrons-right'></i>15 задание</a></li>
+                    <li><a href="16html.html"><i class='bx bx-chevrons-right'></i>16 задание</a></li>
+                    <li><a href="17html.html"><i class='bx bx-chevrons-right'></i>17 задание</a></li>
+                    <li><a href="18html.html"><i class='bx bx-chevrons-right'></i>18 задание</a></li>
+                    <li><a href="19html.html"><i class='bx bx-chevrons-right'></i>19 задание</a></li>
+                    <li><a href="20html.html"><i class='bx bx-chevrons-right'></i>20 задание</a></li>
+                    <li><a href="21html.html"><i class='bx bx-chevrons-right'></i>21 задание</a></li>
+                    <li><a href="22html.html"><i class='bx bx-chevrons-right'></i>22 задание</a></li>
+                    <li><a href="23html.html"><i class='bx bx-chevrons-right'></i>23 задание</a></li>
+                    <li><a href="24html.html"><i class='bx bx-chevrons-right'></i>24 задание</a></li>
+                    <li><a href="25html.html"><i class='bx bx-chevrons-right'></i>25 задание</a></li>
+                    <li><a href="26html.html"><i class='bx bx-chevrons-right'></i>26 задание</a></li>
+                    <li><a href="27html.html"><i class='bx bx-chevrons-right'></i>27 задание</a></li>
+                </div>
+            </div>
+
+
+
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#flush-collapseOne2" aria-expanded="false" aria-controls="flush-collapseOne" style="width: calc(100% - 3px);
+    background: #7fd3e2;
+    display: flex;
+    align-items: center;
+    border-radius: 48px;
+    font-size: 16px;
+   
+    color: white;
+    white-space: nowrap;
+    margin-top: 10px;
+    overflow-x: hidden;"> <i class='bx bxs-category'
+                    style="font-size: 1.6rem;min-width: calc(60px - ((4px + 6px) * 2));margin-left: -7px;"></i>ОГЭ
+            </button>
+
+            <div id="flush-collapseOne2" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
+                data-bs-parent="#accordionFlushExample2">
+
+
+                <li><a href="1OGE.html"><i class='bx bx-chevrons-right'></i>1 задание</a></li>
+                <li><a href="2OGE.html"><i class='bx bx-chevrons-right'></i>2 задание</a></li>
+                <li><a href="3OGE.html"><i class='bx bx-chevrons-right'></i>3 задание</a></li>
+                <li><a href="4OGE.html"><i class='bx bx-chevrons-right'></i>4 задание</a></li>
+                <li><a href="5OGE.html"><i class='bx bx-chevrons-right'></i>5 задание</a></li>
+                <li><a href="6OGE.html"><i class='bx bx-chevrons-right'></i>6 задание</a></li>
+                <li><a href="7OGE.html"><i class='bx bx-chevrons-right'></i>7 задание</a></li>
+                <li><a href="8OGE.html"><i class='bx bx-chevrons-right'></i>8 задание</a></li>
+                <li><a href="9OGE.html"><i class='bx bx-chevrons-right'></i>9 задание</a></li>
+                <li><a href="10OGE.html"><i class='bx bx-chevrons-right'></i>10 задание</a></li>
+                <li><a href="11OGE.html"><i class='bx bx-chevrons-right'></i>11 задание</a></li>
+                <li><a href="12OGE.html"><i class='bx bx-chevrons-right'></i>12 задание</a></li>
+                <li><a href="13OGE.html"><i class='bx bx-chevrons-right'></i>13 задание</a></li>
+            </div>
+        </ul>
+
+    </div>
+    <div class="all-items">
+        <div class="theoty__main">
+            <p style="color:#C3113D;font-size:24px; text-align: center;"><b>ЕГЭ. ЗАДАНИЕ 9</b></p>
+            <div class="button-theory">
+                <a href="theory.html">
+                    <p style="color:#C3113D;font-size:16px; text-align: center;opacity: .8;transform: translate(0);transition: all 0.3s;"
+                        class="theory-p"><b>Изучить теорию</b></p>
+                </a>
+
+            </div>
+        </div>
+        <div class="oll-items" style="animation: myAnim 1s ease 0s 1 normal forwards;">
+
+            <p class="question1"><b>Задание 1</b></p>
+            <br> Укажите варианты ответов, в которых во всех словах одного ряда <b>пропущена одна и та же
+                буква</b>.</br>
+            <br>1. Интелл..гент, выл..нять (от стирки), чемп..онат</br>
+            <br>2. Ар..матный, ор..нжерея, оз..рилась</br>
+            <br>3. Выт..реть, соб..рётся, сд..ржаться</br>
+            <br>4. Зап..вать (водой), сл..паются (глаза), поч..тать (старших)</br>
+            <br>5. Расп..ложение, прор..стет, в..рсистый</br>
+            </em>
+            </p>
+            <p>
+                <button class="btn btn-primary" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapseWidthExample1" aria-expanded="false" aria-controls="collapseWidthExample"
+                    style="background-color: #4f8ca8;">
+                    Нажмите, чтобы открыть ответ
+                </button>
+            </p>
+            <div>
+                <div class="collapse collapse-horizontal" id="collapseWidthExample1">
+                    <div class="card card-body" style="width: 300px;">
+                        134
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="oll-items" style="animation: myAnim 1s ease 0s 1 normal forwards;">
+
+            <p class="question1"><b>Задание 2</b></p>
+            <p><br> Укажите варианты ответов, в которых во всех словах одного ряда <b>пропущена одна и та же
+                    буква</b>.</br>
+                <br>1. Kонс..рвировать, пол..мичный, с..мптомы</br>
+                <br>2. Ген..ральский, д..летант, пон..мание
+                </br>
+                <br>3. П..лисадник, декл..рация, пл..нета</br>
+                <br>4. Оп..лчение, ук..ризненный, просл..влять
+                </br>
+                <br>5. Прив..легия, бл..стала, огран..чение</br>
+                </em>
+            </p>
+            <p>
+                <button class="btn btn-primary" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapseWidthExample2" aria-expanded="false" aria-controls="collapseWidthExample"
+                    style="background-color: #4f8ca8;">
+                    Нажмите, чтобы открыть ответ
+                </button>
+            </p>
+            <div>
+                <div class="collapse collapse-horizontal" id="collapseWidthExample2">
+                    <div class="card card-body" style="width: 300px;">
+                        35
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="oll-items" style="animation: myAnim 1s ease 0s 1 normal forwards;">
+
+            <p class="question1"><b>Задание 3</b></p>
+            <p><br> Укажите варианты ответов, в которых во всех словах одного ряда <b>пропущена одна и та же
+                    буква</b>.</br>
+                <br>1. Неизгл..димый (след), эст..када, оз..ряя
+                </br>
+                <br>2. Вет..ран, ч..столюбие, тр..петать
+                </br>
+                <br>3. Др..бить, контр..лировать, вым..кнуть</br>
+                <br>4. Г..потеза, сж..гание, отб..рает</br>
+                <br>5. Стер..отип, разд..рать, зан..мательный
+                </br>
+                </em>
+            </p>
+            <p>
+                <button class="btn btn-primary" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapseWidthExample3" aria-expanded="false" aria-controls="collapseWidthExample"
+                    style="background-color: #4f8ca8;">
+                    Нажмите, чтобы открыть ответ
+                </button>
+            </p>
+            <div>
+                <div class="collapse collapse-horizontal" id="collapseWidthExample3">
+                    <div class="card card-body" style="width: 300px;">
+                        1234
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="oll-items" style="animation: myAnim 1s ease 0s 1 normal forwards;">
+
+            <p class="question1"><b>Задание 4</b></p>
+            <p><br> Укажите варианты ответов, в которых во всех словах одного ряда <b>пропущена одна и та же
+                    буква</b>.</br>
+                <br>1. Укр..щать, возл..жение (венков), орн..ментальный
+                </br>
+                <br>2. Либ..рализм, кор..фей, трен..ровать
+                </br>
+                <br>3. Ок..ймлять, оч..ровать, ок..лдовать</br>
+                <br>4. Сувер..нитет, эксп..римент, в..рховье</br>
+                <br>5. Комб..нация, разв..вать (память), аг..тационный
+                </br>
+                </em>
+            </p>
+            <p>
+                <button class="btn btn-primary" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapseWidthExample4" aria-expanded="false" aria-controls="collapseWidthExample"
+                    style="background-color: #4f8ca8;">
+                    Нажмите, чтобы открыть ответ
+                </button>
+            </p>
+            <div>
+                <div class="collapse collapse-horizontal" id="collapseWidthExample4">
+                    <div class="card card-body" style="width: 300px;">
+                        45
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="oll-items" style="animation: myAnim 1s ease 0s 1 normal forwards;">
+
+            <p class="question1"><b>Задание 5</b></p>
+            <p><br> Укажите варианты ответов, в которых во всех словах одного ряда <b>пропущена одна и та же
+                    буква</b>.</br>
+                <br>1. Прор..дить (всходы), инт..ллектуальный, п..ссимистичный
+                </br>
+                <br>2.Акк..мпанировать, оч..рование, ав..нтюрист
+                </br>
+                <br>3. Эксперимент..мальный, заст..лать, нан..мать</br>
+                <br>4. Пл..вец, разг..релся (спор), р..вняться (на других)</br>
+                <br>5. Землетр..сение, разр..дить (кусты), об..зательно</br>
+                </em>
+            </p>
+            <p>
+                <button class="btn btn-primary" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapseWidthExample5" aria-expanded="false" aria-controls="collapseWidthExample"
+                    style="background-color: #4f8ca8;">
+                    Нажмите, чтобы открыть ответ
+                </button>
+            </p>
+            <div>
+                <div class="collapse collapse-horizontal" id="collapseWidthExample5">
+                    <div class="card card-body" style="width: 300px;">
+                        145
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="oll-items" style="animation: myAnim 1s ease 0s 1 normal forwards;">
+
+            <p class="question1"><b>Задание 6</b></p>
+            <p><br> Укажите варианты ответов, в которых во всех словах одного ряда <b>пропущена одна и та же
+                    буква</b>.</br>
+                <br>1. Впеч..тление, сем..нар, нав..вать (воспоминания)
+                </br>
+                <br>2. Посв..тить, ув..дание (цветов), одр..хлевший
+                </br>
+                <br>3. Прот..реть, ош..ломленный, р..альный</br>
+                <br>4. Пр..грессивный, повт..рять, ум..лять (значение)</br>
+                <br>5.Лингв..стический, мер..диан, мит..нговать
+                </br>
+                </em>
+            </p>
+            <p>
+                <button class="btn btn-primary" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapseWidthExample6" aria-expanded="false" aria-controls="collapseWidthExample"
+                    style="background-color: #4f8ca8;">
+                    Нажмите, чтобы открыть ответ
+                </button>
+            </p>
+            <div>
+                <div class="collapse collapse-horizontal" id="collapseWidthExample6">
+                    <div class="card card-body" style="width: 300px;">
+                        235
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="oll-items" style="animation: myAnim 1s ease 0s 1 normal forwards;">
+
+            <p class="question1"><b>Задание 7</b></p>
+            <p><br> Укажите варианты ответов, в которых во всех словах одного ряда <b>пропущена одна и та же
+                    буква</b>.</br>
+                <br>1. Ог..рчение, с..мневаться, р..сток
+                </br>
+                <br>2. Д..рижёр, обд..рать (кору), рец..нзент
+                </br>
+                <br>3. Альм..нах, асф..льтировать, фил..рмония
+                </br>
+                <br>4. Прис..гать, взгл..нуть, р..довой</br>
+                <br>5. Д..фирамбы, в..ртуоз,, в..стибюль
+                </br>
+                </em>
+            </p>
+            <p>
+                <button class="btn btn-primary" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapseWidthExample7" aria-expanded="false" aria-controls="collapseWidthExample"
+                    style="background-color: #4f8ca8;">
+                    Нажмите, чтобы открыть ответ
+                </button>
+            </p>
+            <div>
+                <div class="collapse collapse-horizontal" id="collapseWidthExample7">
+                    <div class="card card-body" style="width: 300px;">
+                        134
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="oll-items" style="animation: myAnim 1s ease 0s 1 normal forwards;">
+
+            <p class="question1"><b>Задание 8</b></p>
+            <p><br> Укажите варианты ответов, в которых во всех словах одного ряда <b>пропущена одна и та же
+                    буква</b>.</br>
+                <br>1. Вин..грет, кр..стьянский, перекл..каться
+                </br>
+                <br>2. Мет..фора, разв..литься (на части), п..стух
+                </br>
+                <br>3. Л..леять (мечту), энц..клопедист, од..чать</br>
+                <br>4. ут..шение, изм..рение (скорости), зап..реть (дверь)</br>
+                <br>5. Зар..сли, возг..рание, к..стрюля</br>
+                </em>
+            </p>
+            <p>
+                <button class="btn btn-primary" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapseWidthExample8" aria-expanded="false" aria-controls="collapseWidthExample"
+                    style="background-color: #4f8ca8;">
+                    Нажмите, чтобы открыть ответ
+                </button>
+            </p>
+            <div>
+                <div class="collapse collapse-horizontal" id="collapseWidthExample8">
+                    <div class="card card-body" style="width: 300px;">
+                        24
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="oll-items" style="animation: myAnim 1s ease 0s 1 normal forwards;">
+
+            <p class="question1"><b>Задание 9</b></p>
+            <p><br> Укажите варианты ответов, в которых во всех словах одного ряда <b>пропущена одна и та же
+                    буква</b>.</br>
+                <br>1. Утр..мбовать, диап..зон, к..варство</br>
+                <br>2. Мет..орология, с..дина, тр..вожиться
+                </br>
+                <br>3. Ф..рмализм, г..ризонт, , впл..тную</br>
+                <br>4. Заж..мать, расст..лать, архит..ктурный
+                </br>
+                <br>5. Вы..вление, напр..гаясь, земл..ника
+                </br>
+                </em>
+            </p>
+            <p>
+                <button class="btn btn-primary" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapseWidthExample9" aria-expanded="false" aria-controls="collapseWidthExample"
+                    style="background-color: #4f8ca8;">
+                    Нажмите, чтобы открыть ответ
+                </button>
+            </p>
+            <div>
+                <div class="collapse collapse-horizontal" id="collapseWidthExample9">
+                    <div class="card card-body" style="width: 300px;">
+                        25
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="oll-items" style="animation: myAnim 1s ease 0s 1 normal forwards;">
+
+            <p class="question1"><b>Задание 10</b></p>
+            <p><br> Укажите варианты ответов, в которых во всех словах одного ряда <b>пропущена одна и та же
+                    буква</b>.</br>
+                <br>1. Прив..легия, ижд..венец, забл..ставший
+                </br>
+                <br>2. Об..няние, к..рдинальный, , пок..рать</br>
+                <br>3. Пер..одический, зам..рев (от восторга), заж..гательный
+                </br>
+                <br>4. К..мпаньон, обм..кнуть (перо), попл..вок</br>
+                <br>5. Рассч..таться, дов..рительно, сомн..ваться
+                </br>
+                </em>
+            </p>
+            <p>
+                <button class="btn btn-primary" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapseWidthExample10" aria-expanded="false" aria-controls="collapseWidthExample"
+                    style="background-color: #4f8ca8;">
+                    Нажмите, чтобы открыть ответ
+                </button>
+            </p>
+            <div>
+                <div class="collapse collapse-horizontal" id="collapseWidthExample10">
+                    <div class="card card-body" style="width: 300px;">
+                        12
+                    </div>
+                </div>
+            </div>
+        </div>
+        <nav aria-label="Page navigation example">
+            <ul class="pagination">
+                <li class="page-item">
+                    <a class="page-link" href="EGE9test.html" aria-label="Previous">
+                        <span aria-hidden="true">&laquo;</span>
+                    </a>
+                </li>
+                <li class="page-item"><a class="page-link" href="EGE9test.html">1</a></li>
+                <li class="page-item"><a class="page-link" href="EGE9.1test.html">2</a></li>
+                <li class="page-item">
+                    <a class="page-link" href="EGE9.1test.html" aria-label="Next">
+                        <span aria-hidden="true">&raquo;</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+    <footer>
+        <div class="main__footer-div">
+            <div class="main__footer">
+                <div class="content__footer">
+                    <div class="first__column">
+                        <p class="first__column-p">Дорогие посетители сайта!</p>
+                        <p class="text-justify">Вы можете пользоваться материалами <span class="anim__1">сайта</span>,
+                            чтобы учиться или учить
+                            кого-то. Копирование мы
+                            <span class="anim__2">разрешаем</span>, тем более часть
+                            тестов мы взяли из открытого банка заданий ФИПИ.
+                        </p>
+
+                        <p class="text-justify">Если вы берете материалы с <span class="anim__3">РУСЕГЭ</span>
+                            для собственного проекта,
+                            пожалуйста, <span class="anim__4">ссылайтесь</span> на нас. Всё же большую часть тестов
+                            мы разрабатывали <span class="anim__5">сами</span>.</p>
+                        <p class="text-justify">Здорово, если РусЕгэ <span class="anim__6">помогает</span> вам в работе
+                            или учебе.
+                        </p>
+                    </div>
+
+                    <div class="second__column" id="second__column">
+                        <ul>
+                            <li>
+                                <p class="text-justify__main">
+                                    РЕШЕНИЯ
+                                </p>
+                            </li>
+                            <li>
+                                <a href="check-list.html" target="_blank">
+                                    <p class="text-justify-li"><span class="anim__7">Бесплатные материалы</span></p>
+                                </a>
+
+                                <a href="solve-the-probe.html">
+                                    <p class="text-justify-li">Решить пробник</p>
+                                </a>
+                                <a href="shop.html">
+                                    <p class="text-justify-li">Магазин</p>
+                                </a>
+                                <a href="news.html">
+                                    <p class="text-justify-li">Новое на сайте</p>
+                                </a>
+                            </li>
+
+                        </ul>
+                    </div>
+
+                    <div class="third__column" id="third__column">
+                        <ul>
+                            <li>
+                                <p class="text-justify__main">
+                                    Поддержка
+                                </p>
+                            </li>
+                            <li>
+                                <a href="https://vk.com/lidapatrusheva" target="_blank">
+                                    <p class="text-justify-li">Нашли ошибку?</p>
+                                </a>
+
+                                <a href="https://vk.com/lidapatrusheva" target="_blank">
+                                    <p class="text-justify-li">Связаться с нами</p>
+                                </a>
+                                <a href="https://vk.com/lidapatrusheva" target="_blank">
+                                    <p class="text-justify-li">Пожаловаться</p>
+                                </a>
+                                <a href="https://t.me/S0nder9" target="_blank">
+                                    <p class="text-justify-li"><span class="anim__8">Разработчик</span></p>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="main__column">
+                        <div class="second__column">
+                            <ul>
+                                <li>
+                                    <p class="text-justify__main">
+                                        РЕШЕНИЯ
+                                    </p>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <p class="text-justify-li"><span class="anim__7">Бесплатные материалы</span></p>
+                                    </a>
+
+                                    <a href="">
+                                        <p class="text-justify-li">Решить пробник</p>
+                                    </a>
+                                    <a href="">
+                                        <p class="text-justify-li">Магазин</p>
+                                    </a>
+                                    <a href="">
+                                        <p class="text-justify-li">Новое на сайте</p>
+                                    </a>
+                                </li>
+
+
+
+
+
+                                <li>
+                                    <p class="text-justify__main">
+                                        Поддержка
+                                    </p>
+                                </li>
+                                <li>
+                                    <a href="https://vk.com/lidapatrusheva" target="_blank">
+                                        <p class="text-justify-li">Нашли ошибку?</p>
+                                    </a>
+
+                                    <a href="https://vk.com/lidapatrusheva" target="_blank">
+                                        <p class="text-justify-li">Связаться с нами</p>
+                                    </a>
+                                    <a href="https://vk.com/lidapatrusheva" target="_blank">
+                                        <p class="text-justify-li">Пожаловаться</p>
+                                    </a>
+                                    <a href="">
+                                        <p class="text-justify-li"><span class="anim__8">Разработчик</span></p>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+
+                    </div>
+
+
+
+
+
+
+                </div>
+                <div></div>
+                <div></div>
+                <div></div>
+
+                <div class="icon__footer">
+                    <div></div>
+                    <a href="" title="tg">
+                        <i class='bx bxl-telegram bx-md'></i>
+                    </a>
+                    <a href="" title="vk">
+                        <i class='bx bxl-vk bx-md'></i>
+                    </a>
+                    <a href="" title="yt">
+                        <i class='bx bxl-youtube bx-md'></i>
+                    </a>
+                </div>
+                <div></div>
+                <div></div>
+                <div class="description__footer">
+                    <p class="description__footer-p"><span class="rules">Copyright © 2023.</span> Все права защищены
+                        компанией <a href=""><span class="company">РУСЕГЭ.</span></a></p>
+                </div>
+                <div></div>
+            </div>
+
+
+
+
+
+        </div>
+
+
+
+    </footer>
+
+    <div class="scroll__up">
+        <div class="up__button">
+            <i class='bx bxs-chevrons-up bx-lg'></i>
+        </div>
+    </div>
+
+
+
+    <script src="Java.js"></script>
+
+</body>
+
+</html>

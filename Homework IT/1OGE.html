@@ -1,0 +1,869 @@
+<!doctype html>
+<html lang="ru">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>РУСЕГЭ: тесты реальной сложности</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
+    <link href="https://getbootstrap.com/docs/5.2/assets/css/docs.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="macbook.css">
+    <script src="Java.js"></script>
+    <link rel="stylesheet" href="css.css">
+    </link>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="navbar.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css2?NotoSansKorean&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="navbar-all" style="width: 100%;height: 100px;">
+        <nav class="navbar-nav-scroll">
+            <input id="nav-toggle" type="checkbox">
+            <a href="index.html" style="text-decoration: none;">
+
+                <img src="Лого.png" alt="РУСЕГЭ" style="width: 160px;height: 80px; position: static;">
+            </a>
+            <ul class="links">
+                <li><a href="check-list.html">Бесплатные материалы</a></li>
+                <li><a href="solve-the-probe.html">Решить пробник</a></li>
+                <li><a href="shop.html">Магазин</a></li>
+                <li><a href="news.html">Новое</a></li>
+                <li><a href="contact.html">Контакты</a></li>
+            </ul>
+            <label for="nav-toggle" class="icon-burger">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </label>
+        </nav>
+    </div>
+    <input type="checkbox" id="burger_checkbox" style="display: none;">
+    <label class="burger" for="burger_checkbox" style="z-index: 1001;">
+        <i class='bx bx-menu bx-md'></i>
+
+    </label>
+    <div class="sidebar">
+        <ul class="side-menu">
+            <div class="accordion accordion-flush" id="accordionFlushExample">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne" style="width: calc(100% - 3px);
+    height: 100%;
+    
+    background: #7fd3e2;
+    display: flex;
+    align-items: center;
+    border-radius: 48px;
+    font-size: 16px;
+   
+    color: white;
+    white-space: nowrap;
+    
+    overflow-x: hidden;"> <i class='bx bxs-category'
+                        style="font-size: 1.6rem;min-width: calc(60px - ((4px + 6px) * 2));margin-left: -7px;"></i>ЕГЭ
+                </button>
+
+                <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
+                    data-bs-parent="#accordionFlushExample1">
+                    <li><a href="1html.html"><i class='bx bx-chevrons-right'></i>1 задание</a></li>
+                    <li><a href="2html.html"><i class='bx bx-chevrons-right'></i>2 задание</a></li>
+                    <li><a href="3html.html"><i class='bx bx-chevrons-right'></i>3 задание</a></li>
+                    <li><a href="4html.html"><i class='bx bx-chevrons-right'></i>4 задание</a></li>
+                    <li><a href="5html.html"><i class='bx bx-chevrons-right'></i>5 задание</a></li>
+                    <li><a href="6html.html"><i class='bx bx-chevrons-right'></i>6 задание</a></li>
+                    <li><a href="7html.html"><i class='bx bx-chevrons-right'></i>7 задание</a></li>
+                    <li><a href="8html.html"><i class='bx bx-chevrons-right'></i>8 задание</a></li>
+                    <li><a href="9html.html"><i class='bx bx-chevrons-right'></i>9 задание</a></li>
+                    <li><a href="10html.html"><i class='bx bx-chevrons-right'></i>10 задание</a></li>
+                    <li><a href="11html.html"><i class='bx bx-chevrons-right'></i>11 задание</a></li>
+                    <li><a href="12html.html"><i class='bx bx-chevrons-right'></i>12 задание</a></li>
+                    <li><a href="13html.html"><i class='bx bx-chevrons-right'></i>13 задание</a></li>
+                    <li><a href="14html.html"><i class='bx bx-chevrons-right'></i>14 задание</a></li>
+                    <li><a href="15html.html"><i class='bx bx-chevrons-right'></i>15 задание</a></li>
+                    <li><a href="16html.html"><i class='bx bx-chevrons-right'></i>16 задание</a></li>
+                    <li><a href="17html.html"><i class='bx bx-chevrons-right'></i>17 задание</a></li>
+                    <li><a href="18html.html"><i class='bx bx-chevrons-right'></i>18 задание</a></li>
+                    <li><a href="19html.html"><i class='bx bx-chevrons-right'></i>19 задание</a></li>
+                    <li><a href="20html.html"><i class='bx bx-chevrons-right'></i>20 задание</a></li>
+                    <li><a href="21html.html"><i class='bx bx-chevrons-right'></i>21 задание</a></li>
+                    <li><a href="22html.html"><i class='bx bx-chevrons-right'></i>22 задание</a></li>
+                    <li><a href="23html.html"><i class='bx bx-chevrons-right'></i>23 задание</a></li>
+                    <li><a href="24html.html"><i class='bx bx-chevrons-right'></i>24 задание</a></li>
+                    <li><a href="25html.html"><i class='bx bx-chevrons-right'></i>25 задание</a></li>
+                    <li><a href="26html.html"><i class='bx bx-chevrons-right'></i>26 задание</a></li>
+                    <li><a href="27html.html"><i class='bx bx-chevrons-right'></i>27 задание</a></li>
+                </div>
+            </div>
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#flush-collapseOne2" aria-expanded="false" aria-controls="flush-collapseOne" style="width: calc(100% - 3px);
+    height: 100%;
+    background: #7fd3e2;
+    display: flex;
+    align-items: center;
+    border-radius: 48px;
+    font-size: 16px;
+    color: white;
+    white-space: nowrap;
+    margin-top: 10px;
+    overflow-x: hidden;"> <i class='bx bxs-category'
+                    style="font-size: 1.6rem;min-width: calc(60px - ((4px + 6px) * 2));margin-left: -7px;"></i>ОГЭ
+            </button>
+            <div id="flush-collapseOne2" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
+                data-bs-parent="#accordionFlushExample2">
+                <li class="active"><a href="1OGE.html"><i class='bx bx-chevrons-right'></i>1 задание</a></li>
+                <li><a href="2OGE.html"><i class='bx bx-chevrons-right'></i>2 задание</a></li>
+                <li><a href="3OGE.html"><i class='bx bx-chevrons-right'></i>3 задание</a></li>
+                <li><a href="4OGE.html"><i class='bx bx-chevrons-right'></i>4 задание</a></li>
+                <li><a href="5OGE.html"><i class='bx bx-chevrons-right'></i>5 задание</a></li>
+                <li><a href="6OGE.html"><i class='bx bx-chevrons-right'></i>6 задание</a></li>
+                <li><a href="7OGE.html"><i class='bx bx-chevrons-right'></i>7 задание</a></li>
+                <li><a href="8OGE.html"><i class='bx bx-chevrons-right'></i>8 задание</a></li>
+                <li><a href="9OGE.html"><i class='bx bx-chevrons-right'></i>9 задание</a></li>
+                <li><a href="10OGE.html"><i class='bx bx-chevrons-right'></i>10 задание</a></li>
+                <li><a href="11OGE.html"><i class='bx bx-chevrons-right'></i>11 задание</a></li>
+                <li><a href="12OGE.html"><i class='bx bx-chevrons-right'></i>12 задание</a></li>
+                <li><a href="13OGE.html"><i class='bx bx-chevrons-right'></i>13 задание</a></li>
+            </div>
+        </ul>
+    </div>
+
+    <div class="all-items">
+        <div class="theoty__main">
+            <p style="color:#C3113D;font-size:24px; text-align: center;"><b>ОГЭ. ЗАДАНИЕ 1</b></p>
+            <div class="button-theory">
+                <a href="theory.html">
+                    <p style="color:#C3113D;font-size:16px; text-align: center;opacity: .8;transform: translate(0);transition: all 0.3s;"
+                        class="theory-p"><b>Изучить теорию</b></p>
+                </a>
+
+            </div>
+        </div>
+        <div class="oll-items" style="animation: myAnim 1s ease 0s 1 normal forwards;">
+            <p class="question1"><b>Изложение 1</b></p>
+            <p><br> <B>Дайте развернутый ответ.</B><br><em>Прослушайте текст и напишите сжатое изложение.
+
+                    Учтите, что Вы должны передать главное содержание как каждой микротемы, так и всего текста в целом.
+
+                    Объём изложения – не менее 70 слов.
+
+                    Пишите изложение аккуратно, разборчивым почерком.</em>
+            </p>
+            <div class="audio-all">
+                <audio controls class="audio-player animated">
+                    <source src="izlozhenie1.mp3" type="audio/mp3">
+
+                    Your browser does not support the audio element.
+                </audio>
+            </div>
+            <p>
+                <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample1" role="button"
+                    aria-expanded="false" aria-controls="collapseExample" style="background-color: #4f8ca8;">
+                    Нажмите, чтобы расшифровать запись
+                </a>
+
+            </p>
+            <div class="collapse" id="collapseExample1">
+                <div class="card card-body">
+                    <p>Необычной была дружба этих двух людей  — Александра Сергеевича Пушкина и Ивана Ивановича Пущина.
+                        Шесть
+                        лет они учились вместе в Царскосельском лицее. Затем были довольно редкие встречи в Петербурге у
+                        общих
+                        знакомых. И вот единственный день, проведённый вместе, 11 января 1825 года, когда Пущин первым
+                        из
+                        друзей
+                        посетил Пушкина, который находился в ссылке в Михайловском. И всё. Больше они никогда не
+                        виделись.
+                        11
+                        лет Пущин-декабрист провёл в тюрьме и на каторге. Но дружба не слабела. Многие стихотворения
+                        Пушкин
+                        посвятил другу.</p>
+                    <p>После смерти Пушкина настал черёд Пущина одного за двоих хранить верность старой дружбе. Он
+                        словно и
+                        не
+                        считал Пушкина погибшим, непрестанно обращался к лицейским годам, к Михайловскому свиданию,
+                        добывал
+                        неизвестные ему прежде стихи Пушкина, письма, прозу и как бы во второй раз узнавал лицейского
+                        товарища.</p>
+                    <p>Влияние личности и образа мысли Пущина на Пушкина, начавшееся ещё в лицее, очень значительно.
+                        Большой
+                        Жанно (так называли лицеисты Пущина) не раз охлаждал горячую голову темпераментного друга,
+                        никогда с
+                        отроческих лет не боялся сказать другу правду. Столько же, несомненно, велико и влияние Пушкина
+                        на
+                        Пущина. Огромный талант, глубокий ум, острота чувств, доброе сердце  — всё это могло оставить
+                        равнодушной личность мелкую, но такого человека, как Пущин, покорило навсегда.</p>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+        <div class="oll-items" style="animation: myAnim 1s ease 0s 1 normal forwards;">
+
+            <p class="question1"><b>Изложение 2</b></p>
+            <p><br> <B>Дайте развернутый ответ.</B><br><em>Прослушайте текст и напишите сжатое изложение.
+
+                    Учтите, что Вы должны передать главное содержание как каждой микротемы, так и всего текста в целом.
+
+                    Объём изложения – не менее 70 слов.
+
+                    Пишите изложение аккуратно, разборчивым почерком.</em>
+            </p>
+            <div class="audio-all">
+                <audio controls class="audio-player animated">
+                    <source src="izlozhenie2.mp3" type="audio/mp3">
+
+                    Your browser does not support the audio element.
+                </audio>
+            </div>
+            <p>
+                <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample2" role="button"
+                    aria-expanded="false" aria-controls="collapseExample" style="background-color: #4f8ca8;">
+                    Нажмите, чтобы расшифровать запись
+                </a>
+
+            </p>
+            <div class="collapse" id="collapseExample2">
+                <div class="card card-body">
+                    <p>Испытания ждут друж­бу всегда. Глав­ное из них се­год­ня — из­ме­нив­ший­ся уклад, пе­ре­ме­на в
+                        об­ра­зе и рас­по­ряд­ке жизни. С уско­ре­ни­ем темпа жизни, со стрем­ле­ни­ем быст­ро
+                        ре­а­ли­зо­вать себя при­шло по­ни­ма­ние зна­чи­мо­сти времени. Рань­ше не­воз­мож­но было
+                        представить, например, чтобы хо­зя­е­ва тя­го­ти­лись гостями. Теперь, когда время — цена
+                        до­сти­же­ния своей цели, отдых и го­сте­при­им­ство пе­ре­ста­ли быть значимыми. Ча­стые
+                        встре­чи и
+                        не­то­роп­ли­вые бе­се­ды не яв­ля­ют­ся уже не­пре­мен­ны­ми спут­ни­ка­ми дружбы. В силу того
+                        что
+                        живём мы в раз­ных ритмах, встре­чи дру­зей ста­но­вят­ся редкими.
+                    </p>
+                    <p>Но вот парадокс: рань­ше круг об­ще­ния был ограничен, се­год­ня че­ло­ве­ка угне­та­ет
+                        из­бы­точ­ность вы­нуж­ден­но­го общения. Осо­бен­но это за­мет­но в го­ро­дах с вы­со­кой
+                        плот­но­стью населения. Мы стре­мим­ся обособиться, вы­брать уединённое место в метро, в кафе, в
+                        чи­таль­ном зале библиотеки.</p>
+                    <p>Казалось бы, такая из­бы­точ­ность обя­за­тель­но­го об­ще­ния и стрем­ле­ние к обособ­лен­но­сти
+                        долж­ны све­сти по­треб­ность в друж­бе к минимуму, сде­лать её на­все­гда неактуальной. Но это
+                        не
+                        так. От­но­ше­ния с дру­зья­ми оста­ют­ся на пер­вом месте. Их су­ще­ство­ва­ние со­гре­ва­ет
+                        душу
+                        уверенностью, что нам все­гда есть с кем по­де­лить­ся ра­до­стью и к кому об­ра­тить­ся за
+                        по­мо­щью в самую труд­ную минуту.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="oll-items" style="animation: myAnim 1s ease 0s 1 normal forwards;">
+
+            <p class="question1"><b>Изложение 3</b></p>
+            <p><br> <B>Дайте развернутый ответ.</B><br><em>Прослушайте текст и напишите сжатое изложение.
+
+                    Учтите, что Вы должны передать главное содержание как каждой микротемы, так и всего текста в целом.
+
+                    Объём изложения – не менее 70 слов.
+
+                    Пишите изложение аккуратно, разборчивым почерком.</em>
+            </p>
+            <div class="audio-all">
+                <audio controls class="audio-player animated">
+                    <source src="izlozhenie3.mp3" type="audio/mp3">
+
+                    Your browser does not support the audio element.
+                </audio>
+            </div>
+            <p>
+                <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample3" role="button"
+                    aria-expanded="false" aria-controls="collapseExample" style="background-color: #4f8ca8;">
+                    Нажмите, чтобы расшифровать запись
+                </a>
+
+            </p>
+            <div class="collapse" id="collapseExample3">
+                <div class="card card-body">
+                    <p>У каж­до­го из нас когда-то были лю­би­мые игрушки. Пожалуй, у каж­до­го человека есть
+                        свя­зан­ное с
+                        ними свет­лое и неж­ное воспоминание, ко­то­рое он бе­реж­но хранит в своем сердце. Лю­би­мая
+                        игрушка — это самое яркое вос­по­ми­на­ние из дет­ства каждого человека.
+                    </p>
+                    <p>В век ком­пью­тер­ных технологий ре­аль­ные игрушки уже не при­вле­ка­ют к себе та­ко­го
+                        внимания,
+                        как виртуальные. Но не­смот­ря на все по­яв­ля­ю­щи­е­ся новинки, такие как те­ле­фо­ны и
+                        ком­пью­тер­ная техника, иг­руш­ка все-таки оста­ет­ся неповторимой и не­за­ме­ни­мой в своем
+                        роде,
+                        ведь ничто так не учит и не раз­ви­ва­ет ребенка, как игрушка, с ко­то­рой он может общаться,
+                        иг­рать и даже при­об­ре­тать жизненный опыт.
+                    </p>
+                    <p>Игрушка — это ключ к со­зна­нию маленького человека. Чтобы раз­вить и укре­пить в нем
+                        по­ло­жи­тель­ные качества, сде­лать его пси­хи­че­ски здоровым, при­вить любовь к окружающим,
+                        сфор­ми­ро­вать правильное по­ни­ма­ние добра и зла, не­об­хо­ди­мо тщательно вы­би­рать
+                        игрушку,
+                        помня, что она при­не­сет в его мир не толь­ко свой образ, но и поведение, атрибуты, а также
+                        си­сте­му ценностей и мировоззрение. Не­воз­мож­но воспитать пол­но­цен­но­го человека с
+                        по­мо­щью
+                        игрушек не­га­тив­ной направленности.</p>
+                </div>
+            </div>
+        </div>
+        <div class="oll-items" style="animation: myAnim 1s ease 0s 1 normal forwards;">
+
+            <p class="question1"><b>Изложение 4</b></p>
+            <p><br> <B>Дайте развернутый ответ.</B><br><em>Прослушайте текст и напишите сжатое изложение.
+
+                    Учтите, что Вы должны передать главное содержание как каждой микротемы, так и всего текста в целом.
+
+                    Объём изложения – не менее 70 слов.
+
+                    Пишите изложение аккуратно, разборчивым почерком.</em>
+            </p>
+            <div class="audio-all">
+                <audio controls class="audio-player animated">
+                    <source src="izlozhenie4.mp3" type="audio/mp3">
+
+                    Your browser does not support the audio element.
+                </audio>
+            </div>
+            <p>
+                <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample4" role="button"
+                    aria-expanded="false" aria-controls="collapseExample" style="background-color: #4f8ca8;">
+                    Нажмите, чтобы расшифровать запись
+                </a>
+
+            </p>
+            <div class="collapse" id="collapseExample4">
+                <div class="card card-body">
+                    <p>В обществе, где культивируется идея индивидуализма, многие забыли о таких вещах, как
+                        взаимовыручка и
+                        взаимопомощь. А человеческое общество как раз и сформировалось, и продолжает существовать
+                        благодаря
+                        общему делу и помощи слабым, благодаря тому, что каждый из нас дополняет друг друга. И как
+                        теперь мы
+                        можем поддерживать абсолютно противоположную точку зрения, гласящую о том, что нет иных
+                        интересов
+                        ,кроме наших собственных?
+                    </p>
+                    <p>
+
+                        И дело тут даже не в том, что это звучит эгоистично. Дело в том, что именно в этом вопросе
+                        переплетаются личные и общественные интересы. Понимаете, насколько это глубже, чем кажется? Ведь
+                        индивидуализм разрушает общество, а, стало быть, и ослабляет нас. И только взаимная поддержка
+                        может
+                        сохранить и укрепить общество.
+                    </p>
+                    <p>И что же больше отвечает нашим интересам – взаимовыручка или примитивный эгоизм? Здесь двух
+                        мнений
+                        быть не может. Мы должны понимать друг друга, если хотим все вместе жить хорошо и ни от кого не
+                        зависеть. И, помогая людям в трудную минуту, не надо ждать благодарности, надо просто помогать,
+                        не
+                        ища для себя выгод. Тогда и тебе в ответ помогут обязательно.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="oll-items" style="animation: myAnim 1s ease 0s 1 normal forwards;">
+
+            <p class="question1"><b>Изложение 5</b></p>
+            <p><br> <B>Дайте развернутый ответ.</B><br><em>Прослушайте текст и напишите сжатое изложение.
+
+                    Учтите, что Вы должны передать главное содержание как каждой микротемы, так и всего текста в целом.
+
+                    Объём изложения – не менее 70 слов.
+
+                    Пишите изложение аккуратно, разборчивым почерком.</em>
+            </p>
+            <div class="audio-all">
+                <audio controls class="audio-player animated">
+                    <source src="izlozhenie5.mp3" type="audio/mp3">
+
+                    Your browser does not support the audio element.
+                </audio>
+            </div>
+            <p>
+                <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample5" role="button"
+                    aria-expanded="false" aria-controls="collapseExample" style="background-color: #4f8ca8;">
+                    Нажмите, чтобы расшифровать запись
+                </a>
+
+            </p>
+            <div class="collapse" id="collapseExample5">
+                <div class="card card-body">
+                    <p>Что значит быть культурным человеком? Культурным можно считать человека образованного,
+                        воспитанного,
+                        ответственного. Он уважает себя и окружающих. Культурного человека отличает также творческий
+                        труд,
+                        стремление к высокому, умение быть благодарным, любовь к природе и родине, сострадание и
+                        сочувствие
+                        к ближнему, доброжелательство.
+                    </p>
+                    <p>Культурный человек никогда не солжёт. Он сохранит самообладание и достоинство в любых жизненных
+                        ситуациях. Он имеет чётко поставленную цель и добивается её. Главная же цель такого человека -
+                        увеличивать добро в мире, стремиться к тому, чтобы все люди были счастливы. Идеалом культурного
+                        человека является подлинная человечность.
+                    </p>
+                    <p>В наше время люди уделяют слишком мало внимания культуре. А многие даже не задумываются об этом
+                        на
+                        протяжении всей жизни. Хорошо, если у человека процесс приобщения к культуре происходит с
+                        детства.
+                        Ребёнок знакомится с традициями, переходящими из поколения в поколение, впитывает положительный
+                        опыт
+                        семьи и своей родины, познаёт культурные ценности. Став взрослым, он сможет быть полезным
+                        обществу.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="oll-items" style="animation: myAnim 1s ease 0s 1 normal forwards;">
+
+            <p class="question1"><b>Изложение 6</b></p>
+            <p><br> <B>Дайте развернутый ответ.</B><br><em>Прослушайте текст и напишите сжатое изложение.
+
+                    Учтите, что Вы должны передать главное содержание как каждой микротемы, так и всего текста в целом.
+
+                    Объём изложения – не менее 70 слов.
+
+                    Пишите изложение аккуратно, разборчивым почерком.</em>
+            </p>
+            <div class="audio-all">
+                <audio controls class="audio-player animated">
+                    <source src="izlozhenie6.mp3" type="audio/mp3">
+
+                    Your browser does not support the audio element.
+                </audio>
+            </div>
+            <p>
+                <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample6" role="button"
+                    aria-expanded="false" aria-controls="collapseExample" style="background-color: #4f8ca8;">
+                    Нажмите, чтобы расшифровать запись
+                </a>
+
+            </p>
+            <div class="collapse" id="collapseExample6">
+                <div class="card card-body">
+                    <p>Иметь семью и детей так же необходимо и естественно, как необходимо и естественно трудиться.</p>
+                    <p>Семья издавна скреплялась нравственным авторитетом отца, который традиционно считался главой.
+                        Отца
+                        дети уважали и слушались. Он занимался сельхозработами, строительством, заготовкой леса и дров.
+                        Всю
+                        тяжесть крестьянского труда с ним разделяли взрослые сыновья. Руководство домашним хозяйством
+                        было в
+                        руках жены и матери. Она ведала всем в доме: присматривала за скотом, заботилась о питании, об
+                        одежде. Все эти работы она делала не одна: даже дети, едва научившись ходить, понемногу, вместе
+                        с
+                        игрой, начинали делать что-то полезное.</p>
+                    <p>Доброта, терпимость, взаимное прощение обид перерастали в хорошей семье во взаимную любовь.
+                        Сварливость и неуживчивость считались наказанием судьбы и вызывали жалость к их носителям. Надо
+                        было
+                        уметь уступить, забыть обиду, ответить добром или промолчать. Любовь и согласие между
+                        родственниками
+                        давали начало любви за пределами дома. От человека, не любящего и не уважающего своих родных,
+                        трудно
+                        ждать уважения к другим людям.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="oll-items" style="animation: myAnim 1s ease 0s 1 normal forwards;">
+
+            <p class="question1"><b>Изложение 7</b></p>
+            <p><br> <B>Дайте развернутый ответ.</B><br><em>Прослушайте текст и напишите сжатое изложение.
+
+                    Учтите, что Вы должны передать главное содержание как каждой микротемы, так и всего текста в целом.
+
+                    Объём изложения – не менее 70 слов.
+
+                    Пишите изложение аккуратно, разборчивым почерком.</em>
+            </p>
+            <div class="audio-all">
+                <audio controls class="audio-player animated">
+                    <source src="izlozhenie7.mp3" type="audio/mp3">
+
+                    Your browser does not support the audio element.
+                </audio>
+            </div>
+            <p>
+                <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample7" role="button"
+                    aria-expanded="false" aria-controls="collapseExample" style="background-color: #4f8ca8;">
+                    Нажмите, чтобы расшифровать запись
+                </a>
+
+            </p>
+            <div class="collapse" id="collapseExample7">
+                <div class="card card-body">
+                    <p>Лучше всего проявляет свою воспитанность человек, когда он ведёт дискуссию, спорит, отстаивая
+                        свои
+                        убеждения. В споре сразу же обнаруживается интеллигентность, логичность мышления, вежливость,
+                        умение
+                        уважать людей и самоуважение.
+                    </p>
+                    <p>Как же ведёт спор умный и вежливый спорщик? Прежде всего он внимательно выслушивает своего
+                        противника  — человека, который не согласен с его мнением. Если что-либо неясно в позиции
+                        противника, он задаёт ему дополнительные вопросы, переспрашивает. Если вы с самого начала ведёте
+                        спор вежливо и спокойно, без заносчивости, то тем самым вы обеспечиваете себе спокойное
+                        отступление
+                        с достоинством. Нет ничего красивее в споре, чем в случае необходимости признать полную или
+                        частичную правоту оппонента. Этим вы завоёвываете уважение окружающих. Этим вы как бы призываете
+                        к
+                        уступчивости и своего противника, заставляете его смягчить крайности своей позиции. Но человек
+                        не
+                        должен уступать оппоненту только для того, чтобы ему понравиться или из трусости, или из
+                        карьерных
+                        соображений. Нужно уступать с достоинством в вопросе, который не заставляет вас отказаться от
+                        своих
+                        убеждений или с достоинством принять свою победу, не злорадствуя над побеждённым в споре, не
+                        оскорбляя его самолюбие.
+                    </p>
+                    <p>Одно из самых больших интеллектуальных удовольствий  — следить за спором, который ведётся умелыми
+                        и
+                        умными противниками.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="oll-items" style="animation: myAnim 1s ease 0s 1 normal forwards;">
+
+            <p class="question1"><b>Изложение 8</b></p>
+            <p><br> <B>Дайте развернутый ответ.</B><br><em>Прослушайте текст и напишите сжатое изложение.
+
+                    Учтите, что Вы должны передать главное содержание как каждой микротемы, так и всего текста в целом.
+
+                    Объём изложения – не менее 70 слов.
+
+                    Пишите изложение аккуратно, разборчивым почерком.</em>
+            </p>
+            <div class="audio-all">
+                <audio controls class="audio-player animated">
+                    <source src="izlozhenie8.mp3" type="audio/mp3">
+
+                    Your browser does not support the audio element.
+                </audio>
+            </div>
+            <p>
+                <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample8" role="button"
+                    aria-expanded="false" aria-controls="collapseExample" style="background-color: #4f8ca8;">
+                    Нажмите, чтобы расшифровать запись
+                </a>
+
+            </p>
+            <div class="collapse" id="collapseExample8">
+                <div class="card card-body">
+                    <p>Хороших книг о школе написано немало. Но мне интересно было бы исследовать одну линию в этой
+                        огромной
+                        теме: что остается от учителя, от класса в характере человека, кроме знаний. В сущности, у
+                        каждого
+                        взрослого есть свои впечатления, свои воспоминания о школе. Плохие или хорошие. Одни учителя
+                        помнятся, другие нет. Одни классные товарищи врезались в память, другие забылись. И не всегда
+                        это
+                        можно объяснить степенью дружбы. Нет, тут действуют иные, глубоко скрытые, очевидно, сложные
+                        причины.
+                    </p>
+                    <p>Кроме талантливых учителей есть и другие, любимые учителя. Наверное, любимых учителей больше, чем
+                        талантливых. Наверное, можно заслужить любовь, даже не имея отпущенных природой педагогических
+                        способностей. Талантливым стать нельзя, а вот любимым стать можно.
+                    </p>
+                    <p>Наша любовь к учителям рождалась по-разному. Как и все, я вспоминаю бывших своих учителей. Кто из
+                        них
+                        получал нашу любовь? Физику преподавал нам известный профессор. Он блестяще ставил опыты, умел
+                        рассказать материал доходчиво, образно, но… Но! Но физику мы полюбили раньше, полюбили благодаря
+                        молоденькой учительнице Ксении Евгеньевне. Кажется, она преподавала тогда первый год и не очень
+                        хорошо сама знала некоторые тонкости, но всё равно мы ее любили. Вероятно, за то, что она любила
+                        нас, за то, что ей было весело с нами, интересно, за то, что она не скрывала своих промахов и
+                        открыто переживала их.</p>
+                </div>
+            </div>
+        </div>
+        <div class="oll-items" style="animation: myAnim 1s ease 0s 1 normal forwards;">
+
+            <p class="question1"><b>Изложение 9</b></p>
+            <p><br> <B>Дайте развернутый ответ.</B><br><em>Прослушайте текст и напишите сжатое изложение.
+
+                    Учтите, что Вы должны передать главное содержание как каждой микротемы, так и всего текста в целом.
+
+                    Объём изложения – не менее 70 слов.
+
+                    Пишите изложение аккуратно, разборчивым почерком.</em>
+            </p>
+            <div class="audio-all">
+                <audio controls class="audio-player animated">
+                    <source src="izlozhenie9.mp3" type="audio/mp3">
+
+                    Your browser does not support the audio element.
+                </audio>
+            </div>
+            <p>
+                <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample9" role="button"
+                    aria-expanded="false" aria-controls="collapseExample" style="background-color: #4f8ca8;">
+                    Нажмите, чтобы расшифровать запись
+                </a>
+
+            </p>
+            <div class="collapse" id="collapseExample9">
+                <div class="card card-body">
+                    <p>В чём польза чтения? Верно ли утверждение, что читать полезно? Почему многие продолжают читать?
+                        Ведь
+                        не только для того, чтобы отдохнуть или занять свободное время.
+                    </p>
+                    <p>Польза чтения книг очевидна. Книги расширяют кругозор человека, обогащают его внутренний мир,
+                        делают
+                        умнее. А ещё важно читать книги потому, что это увеличивает словарный запас человека,
+                        вырабатывает
+                        чёткое и ясное мышление. Убедиться в этом каждый может на собственном примере. Стоит только
+                        вдумчиво
+                        прочесть какое-нибудь классическое произведение, и вы заметите, как стало проще с помощью речи
+                        выражать собственные мысли, подбирать нужные слова. Читающий человек грамотнее говорит. Чтение
+                        серьёзных произведений заставляет нас постоянно думать, оно развивает логическое мышление. Не
+                        верите? А вы прочитайте что-нибудь из классики детективного жанра, например, «Приключения
+                        Шерлока
+                        Холмса» Конан Дойла. После прочтения вы будете соображать быстрее, ваш ум станет острее и вы
+                        поймёте, что читать полезно и выгодно.
+                    </p>
+                    <p>Ещё полезно читать книги потому, что они оказывают значительное влияние на наши нравственные
+                        ориентиры и на наше духовное развитие. После прочтения того или иного классического произведения
+                        люди порой начинают меняться в лучшую сторону. (по материалам Интернета)
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="oll-items" style="animation: myAnim 1s ease 0s 1 normal forwards;">
+
+            <p class="question1"><b>Изложение 10</b></p>
+            <p><br> <B>Дайте развернутый ответ.</B><br><em>Прослушайте текст и напишите сжатое изложение.
+
+                    Учтите, что Вы должны передать главное содержание как каждой микротемы, так и всего текста в целом.
+
+                    Объём изложения – не менее 70 слов.
+
+                    Пишите изложение аккуратно, разборчивым почерком.</em>
+            </p>
+            <div class="audio-all">
+                <audio controls class="audio-player animated">
+                    <source src="izlozhenie10.mp3" type="audio/mp3">
+
+                    Your browser does not support the audio element.
+                </audio>
+            </div>
+            <p>
+                <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample10" role="button"
+                    aria-expanded="false" aria-controls="collapseExample" style="background-color: #4f8ca8;">
+                    Нажмите, чтобы расшифровать запись
+                </a>
+
+            </p>
+            <div class="collapse" id="collapseExample10">
+                <div class="card card-body">
+                    <p>Каждый писатель тревожится о том, как его будут читать, поймут ли, почувствуют ли то, что любило
+                        его
+                        сердце. От этого зависит так много, и прежде всего  — состоится ли у него желанная духовная
+                        встреча
+                        с теми далёкими, но близкими, для которых он писал свою книгу.
+                    </p>
+                    <p>И вот мы, читатели, берёмся за эту книгу. Перед нами чувства, идеи, образы, целое здание духа,
+                        которое даётся нам как бы при помощи шифра. Оно скрыто за буквами, общеизвестными словами и
+                        образами. Жизнь, яркость, силу, смысл должен из них добыть сам читатель. Он должен воссоздать в
+                        себе
+                        созданное автором, и если он не умеет, не хочет и не сделает этого, то за него не сделает этого
+                        никто, книга пройдёт мимо него.
+                    </p>
+                    <p>Обычно думают, что чтение доступно всякому грамотному. Но, к сожалению, это совсем не так. Ведь
+                        настоящий читатель отдаёт книге всё своё внимание, все свои душевные способности, которые
+                        необходимы
+                        для понимания этой книги. Настоящее чтение не сводится к механическому соединению слов, оно
+                        требует
+                        твёрдого желания услышать голос автора. Искусство чтения побеждает одиночество, разлуку, время и
+                        расстояние, оно помогает чувствовать связь с другими людьми и вместе с автором постигать
+                        сущность
+                        мира. Читать  — значит искать и находить, потому что читатель как бы отыскивает скрытый
+                        писателем
+                        духовный клад. Это творческий процесс, потому что воспроизводить  — значит творить.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <nav aria-label="Page navigation example">
+            <ul class="pagination">
+                <li class="page-item"><a class="page-link" href="1OGE.html">1</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <footer>
+        <div class="main__footer-div">
+            <div class="main__footer">
+                <div class="content__footer">
+                    <div class="first__column">
+                        <p class="first__column-p">Дорогие посетители сайта!</p>
+                        <p class="text-justify">Вы можете пользоваться материалами <span class="anim__1">сайта</span>,
+                            чтобы учиться или учить
+                            кого-то. Копирование мы
+                            <span class="anim__2">разрешаем</span>, тем более часть
+                            тестов мы взяли из открытого банка заданий ФИПИ.
+                        </p>
+
+                        <p class="text-justify">Если вы берете материалы с <span class="anim__3">РУСЕГЭ</span>
+                            для собственного проекта,
+                            пожалуйста, <span class="anim__4">ссылайтесь</span> на нас. Всё же большую часть тестов
+                            мы разрабатывали <span class="anim__5">сами</span>.</p>
+                        <p class="text-justify">Здорово, если РусЕгэ <span class="anim__6">помогает</span> вам в работе
+                            или учебе.
+                        </p>
+                    </div>
+
+                    <div class="second__column" id="second__column">
+                        <ul>
+                            <li>
+                                <p class="text-justify__main">
+                                    РЕШЕНИЯ
+                                </p>
+                            </li>
+                            <li>
+                                <a href="check-list.html" target="_blank">
+                                    <p class="text-justify-li"><span class="anim__7">Бесплатные материалы</span></p>
+                                </a>
+
+                                <a href="solve-the-probe.html">
+                                    <p class="text-justify-li">Решить пробник</p>
+                                </a>
+                                <a href="shop.html">
+                                    <p class="text-justify-li">Магазин</p>
+                                </a>
+                                <a href="news.html">
+                                    <p class="text-justify-li">Новое на сайте</p>
+                                </a>
+                            </li>
+
+                        </ul>
+                    </div>
+
+                    <div class="third__column" id="third__column">
+                        <ul>
+                            <li>
+                                <p class="text-justify__main">
+                                    Поддержка
+                                </p>
+                            </li>
+                            <li>
+                                <a href="https://vk.com/lidapatrusheva" target="_blank">
+                                    <p class="text-justify-li">Нашли ошибку?</p>
+                                </a>
+
+                                <a href="https://vk.com/lidapatrusheva" target="_blank">
+                                    <p class="text-justify-li">Связаться с нами</p>
+                                </a>
+                                <a href="https://vk.com/lidapatrusheva" target="_blank">
+                                    <p class="text-justify-li">Пожаловаться</p>
+                                </a>
+                                <a href="https://t.me/S0nder9" target="_blank">
+                                    <p class="text-justify-li"><span class="anim__8">Разработчик</span></p>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="main__column">
+                        <div class="second__column">
+                            <ul>
+                                <li>
+                                    <p class="text-justify__main">
+                                        РЕШЕНИЯ
+                                    </p>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <p class="text-justify-li"><span class="anim__7">Бесплатные материалы</span></p>
+                                    </a>
+
+                                    <a href="">
+                                        <p class="text-justify-li">Решить пробник</p>
+                                    </a>
+                                    <a href="">
+                                        <p class="text-justify-li">Магазин</p>
+                                    </a>
+                                    <a href="">
+                                        <p class="text-justify-li">Новое на сайте</p>
+                                    </a>
+                                </li>
+
+
+
+
+
+                                <li>
+                                    <p class="text-justify__main">
+                                        Поддержка
+                                    </p>
+                                </li>
+                                <li>
+                                    <a href="https://vk.com/lidapatrusheva" target="_blank">
+                                        <p class="text-justify-li">Нашли ошибку?</p>
+                                    </a>
+
+                                    <a href="https://vk.com/lidapatrusheva" target="_blank">
+                                        <p class="text-justify-li">Связаться с нами</p>
+                                    </a>
+                                    <a href="https://vk.com/lidapatrusheva" target="_blank">
+                                        <p class="text-justify-li">Пожаловаться</p>
+                                    </a>
+                                    <a href="">
+                                        <p class="text-justify-li"><span class="anim__8">Разработчик</span></p>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+
+                    </div>
+
+
+
+
+
+
+                </div>
+                <div></div>
+                <div></div>
+                <div></div>
+
+                <div class="icon__footer">
+                    <div></div>
+                    <a href="" title="tg">
+                        <i class='bx bxl-telegram bx-md'></i>
+                    </a>
+                    <a href="" title="vk">
+                        <i class='bx bxl-vk bx-md'></i>
+                    </a>
+                    <a href="" title="yt">
+                        <i class='bx bxl-youtube bx-md'></i>
+                    </a>
+                </div>
+                <div></div>
+                <div></div>
+                <div class="description__footer">
+                    <p class="description__footer-p"><span class="rules">Copyright © 2023.</span> Все права защищены
+                        компанией <a href=""><span class="company">РУСЕГЭ.</span></a></p>
+                </div>
+                <div></div>
+            </div>
+
+
+
+
+
+        </div>
+
+
+
+    </footer>
+
+    <div class="scroll__up">
+        <div class="up__button">
+            <i class='bx bxs-chevrons-up bx-lg'></i>
+        </div>
+    </div>
+    <script src="Java.js"></script>
+
+</body>
+
+</html>
