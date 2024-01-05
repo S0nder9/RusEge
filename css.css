@@ -220,10 +220,15 @@ body {
   #custom-button {
     width: 73px;
     height: 64px;
+    margin: 0;
   }
 
   .custom-button-p {
     font-size: 12px;
+  }
+
+  .button-prime-p {
+    margin: 0 !important;
   }
 }
 
