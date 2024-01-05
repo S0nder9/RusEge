@@ -2536,66 +2536,67 @@ body::-webkit-scrollbar-track {
     justify-content: center;
   }
 
-    .center {
-      margin-top: 50px;
-            position: absolute;
-              top: 100%;
-              left: 50%;
-              -webkit-transform: translate(-50%, -50%);
-            
-    }
+  .center {
+    margin-top: 50px;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+
+  }
 }
 
- .main__div {
-   display: none;
- }
+.main__div {
+  display: none;
+}
 
 @media (max-width: 800px) {
-    .user-card {
-        display: grid;
-        grid-template-columns: 1fr .5fr .5fr;
-        grid-template-rows: auto;
-        justify-items: center;
-        align-items: center;
-        width: 100%;
-        height: 100%;
-        position: relative;
-        float: left;
-      }
+  .user-card {
+    display: grid;
+    grid-template-columns: 1fr .5fr .5fr;
+    grid-template-rows: auto;
+    justify-items: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    float: left;
+  }
 
-      .main__div {
-        display: block;
-      }
+  .main__div {
+    display: block;
+  }
 
-      .inf {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-      }
+  .inf {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 
-      .inf p {
-        margin: 10px;
-        padding: 2px;
-        font-size: 12px;
-      }
+  .inf p {
+    margin: 10px;
+    padding: 2px;
+    font-size: 12px;
+  }
 }
 
 @media (max-width: 386px) {
-    #card {
-        display: grid;
-        grid-template-columns: auto;
-        grid-template-rows: 20vw 1fr;
-        width: 90vw;
-        height: 171vh;
-        background-color: #fff;
-        background: linear-gradient(#f8f8f8, #fff);
-        box-shadow: 0 8px 16px -8px rgba(0, 0, 0, 0.4);
-        border-radius: 6px;
-        overflow: hidden;
-        position: relative;
-        margin: 1.5rem;
-        cursor: pointer;
-      }
+  #card {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 20vw 1fr;
+    width: 90vw;
+    /* height: 171vh; */
+    height: auto;
+    background-color: #fff;
+    background: linear-gradient(#f8f8f8, #fff);
+    box-shadow: 0 8px 16px -8px rgba(0, 0, 0, 0.4);
+    border-radius: 6px;
+    overflow: hidden;
+    position: relative;
+    margin: 1.5rem;
+    cursor: pointer;
+  }
 }
 
 .who {
