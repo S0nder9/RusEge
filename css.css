@@ -2537,6 +2537,7 @@ body::-webkit-scrollbar-track {
   }
 
     .center {
+      margin-top: 50px;
             position: absolute;
               top: 100%;
               left: 50%;
