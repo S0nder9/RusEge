@@ -2540,6 +2540,58 @@ body::-webkit-scrollbar-track {
     }
 }
 
+ .main__div {
+   display: none;
+ }
+
+@media (max-width: 800px) {
+    .user-card {
+        display: grid;
+        grid-template-columns: 1fr .5fr .5fr;
+        grid-template-rows: auto;
+        justify-items: center;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+        position: relative;
+        float: left;
+      }
+
+      .main__div {
+        display: block;
+      }
+
+      .inf {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .inf p {
+        margin: 10px;
+        padding: 2px;
+        font-size: 12px;
+      }
+}
+
+@media (max-width: 386px) {
+    #card {
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: 20vw 1fr;
+        width: 90vw;
+        height: 171vh;
+        background-color: #fff;
+        background: linear-gradient(#f8f8f8, #fff);
+        box-shadow: 0 8px 16px -8px rgba(0, 0, 0, 0.4);
+        border-radius: 6px;
+        overflow: hidden;
+        position: relative;
+        margin: 1.5rem;
+        cursor: pointer;
+      }
+}
+
 .who {
   display: grid;
   grid-template-columns: auto;
@@ -2553,7 +2605,7 @@ body::-webkit-scrollbar-track {
   height: 4vh;
   justify-items: center;
   margin: 20px;
-  padding: 5px;
+  /* padding: 5px; */
   border-radius: 5px;
   background-color: rgba(26, 141, 235, 0.085);
   font-size: 16px;
