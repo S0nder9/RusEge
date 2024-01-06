@@ -2537,10 +2537,7 @@ body::-webkit-scrollbar-track {
   }
 
   .center {
-    margin-top: 50px;
-    position: absolute;
-    top: 100%;
-    left: 50%;
+    margin-top: 400px;
     -webkit-transform: translate(-50%, -50%);
 
   }
@@ -2554,7 +2551,7 @@ body::-webkit-scrollbar-track {
   .user-card {
     display: grid;
     grid-template-columns: 1fr .5fr .5fr;
-    grid-template-rows: auto;
+    grid-template-rows: 1fr;
     justify-items: center;
     align-items: center;
     width: 100%;
